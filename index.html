@@ -7,177 +7,120 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
-<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="static/css/font.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css2?family=Proxima+Nova">
 
-    <title>Re:treat</title>
+    <title>Helen Xu</title>
   </head>
   <body>
-    <!-- popup window -->
-    <div id="overlay"></div>
-    <div id="popup">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="text-center" style="font-weight: 400;">Stay updated with us</h2>
-            <h6 class="text-center" style="padding: 12px 0px 12px 0px;">Sign up with your email address to receive news and updates.</h6>
+  	<!-- 01 header -->
+    <div class="container-fluid header">
+        <!-- intro-->
+        <div class="row intro">
+            <div class="col-md-6 vert-center hori-top text-left" style="flex-direction: column;">
+                <p>Hi there &#128075;, I'm Zhehan "Helen" Xu</p>
+                <h2>I create impactful experiences with data-driven designs</h2>
+                <p>m.s. <a href="https://www.hcde.washington.edu/" target="_blank">hcde @ uw</a> | b.a. data sci + econ @ <a href="https://www.berkeley.edu/" target="_blank">uc berkeley</a><br>prev product design intern @ <a href="https://www.dropbox.com/official-site/" target="_blank">dropbox</a></p>
+                <div class="vert-left hori-center" style="margin-top: 30px;">
+                    <button type="button" disabled onclick="location.href='about.html'" class="button" style="margin-right: 18px; cursor: not-allowed;">About me</button>
+                    <button type="button" onclick="location.href='https://drive.google.com/file/d/1J5IzMF3VQlChyDnqn0kqSXSYSuhOalgg/view'" target="_blank" class="button">Resume</button>
+                </div>
+            </div>
+            <div class="col-md-6 vert-right hori-center">
+                <img src="static/images/home-intro.gif" style="max-height: 400px; border-radius:50%"></img>
+            </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 email-img"><img src="static/images/popup.png" style="height: 225px;"></img>
+
+        <!-- scroll gif -->
+        <div class="col-md-12 vert-center hori-center scroll">
+            <img src="static/images/home-scroll.gif" style="height: 45px"></img>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-top: 12px;">
-            <form action="/email-list.php" method="get" class="text-center">
-                <input type="text" id="email" name="email" placeholder="Email Address">
-                <input type="submit" value="Sign Up" class="button">
-            </form>
+
+    	<!-- navbar -->
+        <div id="nav-bar" class="row navbar">
+    		<div class="col-xs-6 vert-left hori-center">
+    			<a href="index.html" style="font-size: 32px;">&#128126;</a>
+    		</div>
+    		<div class="col-xs-6 vert-right hori-center">
+    			<a class="nav-selected" href="index.html" style="padding-right: 18px;">work</a>
+                <a class="nav-text" href="" style="padding-right: 18px; cursor: not-allowed;">playground</a>
+    			<a class="nav-text" href="" style="cursor: not-allowed;">about</a>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- 02 project preview -->
+    <!-- dbx -->
+    <div class="container-fluid home-dbx">
+        <div class="project">
+            <p class="home-title">Dropbox space-upgrade</p>
+            <div class="vert-left hori-center">
+                <p class="label">Internship</p>
+                <p class="label">Growth design</p>
+            </div>
+            <p class="project-intro">Improving upgrading experience on mobile devices and driving monetization</p>
+            <button type="button" disabled onclick="location.href='dbx.html'" class="button" style="margin-top: 10px; cursor: not-allowed;">View project</button>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 close" style="padding-top: 24px">
-            <a id="close-button" href="" class="text-center" style="color: #333333; ">Close</a>
+        <div class="col-md-12 vert-center hori-center scroll">
+            <img src="static/images/home-scroll.gif" style="height: 45px"></img>
         </div>
     </div>
 
-  	<!-- header -->
-    <div class="container-fluid header" style="padding-top: 96px;">
-    	<div id="nav-bar" class="row navbar" style="padding: 18px 0px 9px 0px;">
-    		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    			<h1 class="text-left" style="font-size: 32px; font-weight: 500; padding-left: 18px">
-    				<a href="index.html">Re:treat</a>
-    			</h1>
-    		</div>
-    		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    			<h1 class="text-right" style="font-size: 18px; font-weight: 200; padding-right: 18px">
-    				<a href="index.html" style="padding-right: 24px;">Home</a>
-    				<a href="team.html" style="padding-right: 24px;">Our team</a>
-    				<button type="button" class="button" onclick="location.href='https://re-treat.github.io/#/'">Try Re:treat &#127807;</button>
-    			</h1>
-    		</div>
-    	</div>
-    	<div class="row" style="padding-top: 100px">
-    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    			<p class="text-center open-sans-font" style="font-size: 18px; color: white; font-weight: 200;">Self-care could be quick, easy, and instant</p>
-    		</div>
-    	</div>
-    	<div class="row" style="padding-top: 12px">
-    		<div class="col-lg-12">
-    			<h1 class="text-center">Take care of your slightest emotions</h1>
-    		</div>
-    	</div>
-    	<div class="row" style="padding: 24px 0px 200px 0px">
-    		<div class="col-lg-12">
-    			<button type="button" id="button-center" onclick="location.href='https://re-treat.github.io/#/'" class="button">Try Re:treat &#127807;</button>
-    		</div>
-    	</div>	
+    <!-- retreat -->
+    <div class="container-fluid home-retreat">
+        <div class="project">
+            <p class="home-title">Re:treat</p>
+            <div class="vert-left hori-center">
+                <p class="label">Start-up</p>
+                <p class="label">Mental health</p>
+            </div>
+            <p class="project-intro">Web-based mental health chatbot guiding students to do self-care exercises and track daily emotion</p>
+            <button type="button" disabled onclick="location.href='retreat.html'" class="button" style="margin-top: 10px; cursor: not-allowed;">View project</button>
+        </div>
+        <div class="col-md-12 vert-center hori-center scroll">
+            <img src="static/images/home-scroll.gif" style="height: 45px"></img>
+        </div>
     </div>
 
-    <!-- intro -->
-    <div class="container" style="padding: 0px 0px 100px 0px;">
-    	<div class="row" style="padding-top: 100px;">
-    		<div class="col-sm-1"></div>
-            <div class="col-lg-10">
-    			<h2 class="text-center">We help you select apt mental health exercises</h2>
-    		</div>
-            <div class="col-sm-1"></div>
-    	</div>
-    	<div class="row">
-            <div class="col-sm-1"></div>
-    		<div class="col-lg-10">
-    			<h5 class="text-center" style="padding-top: 24px">Assuage your emotional distress instantly by labeling your short-term daily hassles. We will generate your personalized 5-to-10-minute self-care mental exercises and connect you to the community anonymously.</h5>
-    		</div>
-            <div class="col-sm-1"></div>
-    	</div>
+    <!-- foodo -->
+    <div class="container-fluid home-foodo">
+        <div class="project">
+            <p class="home-title">Foodo</p>
+            <div class="vert-left hori-center">
+                <p class="label">Course project</p>
+                <p class="label">Sustanability</p>
+            </div>
+            <p class="project-intro">Easy and instant food donation with just one tap</p>
+            <button type="button" disabled onclick="location.href='foodo.html'" class="button" style="margin-top: 10px; cursor: not-allowed;">View project</button>
+        </div>
+        <div class="col-md-12 vert-center hori-center scroll">
+            <img src="static/images/home-scroll.gif" style="height: 45px"></img>
+        </div>
+    </div>
+    <!-- vera -->
+    <div class="container-fluid home-vera">
+        <div class="project">
+            <p class="home-title">Vera project</p>
+            <div class="vert-left hori-center">
+                <p class="label">Course project</p>
+                <p class="label">Visual design</p>
+            </div>
+            <p class="project-intro">Visual system guide for Seattle's music and art creative community</p>
+            <button type="button" disabled onclick="location.href='vara.html'" class="button" style="margin-top: 10px; cursor: not-allowed;">View project</button>
+        </div>
     </div>
 
-    <!-- block 1 -->
-    <div class="container-fluid" style="padding: 0px 0px 50px 0px; background-color: #f7f7f7;">
-    	<div class="row" style="padding-top: 50px;">
-    		<div class="col-sm-2"></div>
-    		<div class="col-sm-4">
-    			<img class="home-img" src="static/images/home-1.png" style="height: 400px; margin: 0px 0px;"></img>
-    		</div>
-    		<div class="col-sm-4 my-auto">
-    			<h2 class="text-center" style="padding: 0px 50px 0px 50px">Why care about mental health</h2>
-    			<h5 class="text-center">Self-care has become a buzzword as people’s awareness of mental health grows. More than 60 percent of college students said they had experienced “overwhelming anxiety,” and over 40 percent said they felt so depressed that they had difficulty functioning.</h5>
-    		</div>
-    		<div class="col-sm-2"></div>
-    	</div>
-    </div>
-
-    <!-- block 2 -->
-    <div class="container-fluid" style="padding: 0px 0px 50px 0px;">
-    	<div class="row" style="padding-top: 50px;">
-    		<div class="col-sm-2"></div>
-    		<div class="col-sm-4 my-auto">
-    			<h2 class="text-center">The challenge</h2>
-    			<h5 class="text-center">The increase in attention of day-to-day mental health has given rise to a boom of meditation apps, online counseling, and even wellness-themed youtube channels. Yet the amount of options is overwhelming and obstructive to self-care.</h5>
-    		</div>
-    		<div class="col-sm-4">
-    			<img class="home-img" src="static/images/home-2.png" style="height: 400px; margin: 0px 0px;"></img>
-    		</div>
-
-    		<div class="col-sm-2"></div>
-    	</div>
-    </div>
-
-    <!-- block 3 -->
-    <div class="container-fluid" style="padding: 0px 0px 50px 0px; background-color: #f7f7f7;">
-    	<div class="row" style="padding-top: 50px;">
-    		<div class="col-sm-2"></div>
-    		<div class="col-sm-4">
-    			<img class="home-img" src="static/images/home-3.png" style="height: 400px; margin: 0px 0px;"></img>
-    		</div>
-    		<div class="col-sm-4 my-auto">
-    			<h2 class="text-center">Why Re:treat</h2>
-    			<h5 class="text-center">Re:treat not only saves your time and energy for finding a suitable mental exercise, but also validates the exercise with research evidence and introduces you to the community.</h5>
-    		</div>
-    		<div class="col-sm-2"></div>
-    	</div>
-    </div>
-
-    <!-- solution -->
-    <div class="container" style="padding: 0px 0px 50px 0px;">
-    	<div class="row" style="padding-top: 50px;">
-    		<div class="col-lg-12">
-    			<h2 class="text-center" style="padding-bottom: 24px;">Our Solution</h2>
-    		</div>
-    	</div>
-    	<div class="row">
-    		<div class="col-sm-4">
-    			<img class="feature-img" src="static/images/feature-1.png" style="height: 250px;"></img>
-    			<h4 class="text-center" style="padding: 24px 0px 24px 0px;">Instant</h4>
-    			<h5 class="text-center">Labeling your emotional distress easily with only a few self-introspective questions, Re:treat helps you to diagnose your daily mental hassles promptly at your fingertip.</h5>
-    		</div>
-    		<div class="col-sm-4">
-    			<img class="feature-img" src="static/images/feature-2.png" style="height: 250px;"></img>
-    			<h4 class="text-center" style="padding: 24px 0px 24px 0px;">Personalized</h4>
-    			<h5 class="text-center">Based on your emotion, Re:treat saves your time searching and comparing the best suitable mental exercises and sifts out the relevant ones that would help you the most.</h5>
-    		</div>
-    		<div class="col-sm-4">
-    			<img class="feature-img" src="static/images/feature-3.png" style="height: 250px;"></img>
-    			<h4 class="text-center" style="padding: 24px 0px 24px 0px;">Effective</h4>
-    			<h5 class="text-center">Backed by psychology and mental health research, Re:treat's short yet refined exercise recommendations are effective and will help you to acquire a healthier mental state.</h5>
-    		</div>
-    	</div>
-    </div>
-
-    <!-- email -->
-    <div class="container-fluid" style="padding: 0px 0px 50px 0px; background-color: #f7f7f7;">
-    	<div class="row" style="padding-top: 50px;">
-    		<div class="col-lg-12">
-    			<h2 class="text-center" style="font-weight: 400;">Stay updated with us</h2>
-    			<h5 class="text-center" style="padding: 12px 0px 12px 0px;">Sign up with your email address to receive news and updates.</h5>
-    			<form action="/email-list.php" method="get" class="text-center">
-    				<input type="text" id="email" name="email" placeholder="Email Address">
-    				<input type="submit" value="Sign Up" class="button">
-    			</form>
-    		</div>
-    	</div>
-    </div>
-
-    <!-- footer -->
-    <div class="container-fluid" style="padding: 0px 0px 24px 0px; background-color: #333333;">
-    	<div class="row" style="padding-top: 36px;">
-    		<div class="col-lg-12">
-    			<h5 class="text-center" style="color: white;">Contact us at <a href="mailto: retreaet2020.official@gmail.com">retreat2020.official@gmail.com</a> | All Rights Researved</h5>
-    			<h5 class="text-center" style="color: white;">Made with &#128155; and &#128171;</h5>
-    		</div>
-    	</div>
+    <!-- 03 footer -->
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-md-6 vert-left hori-center footer-text">
+                Coded with &#127861; and &#127783; in Seattle | All rights reserved &copy; Helen Xu, 2022
+            </div>
+            <div class="col-md-6 vert-right hori-center">
+                <a href="mailto: helenxuzh@gmail.com" class="footer-text">Email</a>
+                <a href="https://www.linkedin.com/in/helen-zhehan-xu/" class="footer-text" style="margin-left: 18px;">LinkedIn</a>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->

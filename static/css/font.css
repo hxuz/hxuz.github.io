@@ -1,0 +1,116 @@
+/* Proxima Nova Condensed*/
+
+@font-face {
+    font-family: 'ProximaNovaCond Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNovaCond Regular'), 
+    url('../fonts/ProximaNovaCondensed/ProximaNovaCond-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ProximaNovaCond RegularIt';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNovaCond RegularIt'), 
+    url('../fonts/ProximaNovaCondensed/ProximaNovaCond-RegularIt.woff') format('woff');
+}
+
+
+
+/* Domaine Display Narrow */
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Regular'), url('../fonts/DomaineDispNar-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow RegularItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Regular Italic'), url('../fonts/DomaineDispNar-RegularItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Medium'), url('../fonts/DomaineDispNar-Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow MediumItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Medium Italic'), url('../fonts/DomaineDispNar-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Semibold'), url('../fonts/DomaineDispNar-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow SemiboldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Semibold Italic'), url('../fonts/DomaineDispNar-SemiboldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Bold'), url('../fonts/DomaineDispNar-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Bold Italic'), url('../fonts/DomaineDispNar-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow Extrabold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Extrabold'), url('../fonts/DomaineDispNar-Extrabold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow ExtraboldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Extrabold Italic'), url('../fonts/DomaineDispNar-ExtraboldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Black'), url('../fonts/DomaineDispNar-Black.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DomaineDisplayNarrow BlackItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplayNarrow Black Italic'), url('../fonts/DomaineDispNar-BlackItalic.woff') format('woff');
+}
