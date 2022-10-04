@@ -216,6 +216,14 @@ h3 { /* section */
   max-width: 960px;
 }
 
+.about-me {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 1140px;
+}
+
 .project {
   position: absolute;
   top: 50%;
@@ -379,4 +387,10 @@ h3 { /* section */
 
 .footer {
   padding: 80px 30px 30px 30px;
+}
+
+.footer-about {
+  padding: 80px 30px 30px 30px;
+  position: fixed;
+  bottom: 0px;
 }
