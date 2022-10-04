@@ -237,6 +237,11 @@ h3 { /* section */
   bottom: 30px;
 }
 
+.more-proj {
+  display: flex;
+  flex-direction: column;
+}
+
 .button {
   background-color: #143ab8;
   border: none;
