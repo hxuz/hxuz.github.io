@@ -169,7 +169,7 @@ h3 { /* section */
   font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #143ab8;
+  color: #1a1b1f;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -180,7 +180,7 @@ h3 { /* section */
 }
 
 .project-intro {
-  color: #143ab8;
+  color: #1a1b1f;
   font-weight: 400;
 }
 
