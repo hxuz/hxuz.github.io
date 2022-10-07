@@ -1,5 +1,4 @@
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -12,14 +11,14 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-/* Show and hide popup window */
-window.onload = function() {
-	$("#overlay").show();
-	$("#overlay").appendTo(document.body);
-	$("#popup").show();
-	$("#close-button").click(function() {
-		$("#popup").hide();
-		$("#overlay").appendTo(document.body).remove();
-		return false;
-	});
-};
+// /* Show and hide popup window */
+// window.onload = function() {
+// 	$("#overlay").show();
+// 	$("#overlay").appendTo(document.body);
+// 	$("#popup").show();
+// 	$("#close-button").click(function() {
+// 		$("#popup").hide();
+// 		$("#overlay").appendTo(document.body).remove();
+// 		return false;
+// 	});
+// };
