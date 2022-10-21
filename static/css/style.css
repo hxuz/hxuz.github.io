@@ -108,7 +108,7 @@ a.footer-text:active {
 }
 
 h1 { /* project title */
-  font-family: 'DomaineDisplayNarrow Bold', Georgia, serif;
+  font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;
   font-size: 44px;
   line-height: 62px;
   color: #1a1b1f;
@@ -117,7 +117,7 @@ h1 { /* project title */
 }
 
 h2 { /* headings */
-  font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;
+  font-family: 'DomaineDisplayNarrow Medium', Georgia, serif;
   font-size: 32px;
   line-height: 40px;
   color: #143ab8;
@@ -164,8 +164,9 @@ h3 { /* section */
 }
 
 .home-title { /* type */
-  font-family: 'DomaineDisplayNarrow Bold', Georgia, serif;
+  font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;
   font-size: 44px;
+  letter-spacing: .05rem;
   line-height: 62px;
   color: #143ab8;
   text-transform: capitalize;
