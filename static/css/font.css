@@ -18,6 +18,31 @@
 
 
 
+/* Domaine Display */
+
+@font-face {
+    font-family: 'DomaineDisplay Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplay Regular'), url('../fonts/DomaineDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DomaineDisplay Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplay Medium'), url('../fonts/DomaineDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DomaineDisplay Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DomaineDisplay Bold'), url('../fonts/DomaineDisplay-Bold.woff') format('woff');
+}
+
+
+
 /* Domaine Display Narrow */
 
 @font-face {

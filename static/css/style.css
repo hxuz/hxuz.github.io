@@ -1,4 +1,5 @@
 @import url("font.css");
+@import url('https://fonts.cdnfonts.com/css/domaine-sans-display');
 
 body{
   max-width:100%;
@@ -108,20 +109,24 @@ a.footer-text:active {
 }
 
 h1 { /* project title */
-  font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;
+  /*font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;*/
+  /*font-family: 'DomaineDisplay Medium', Georgia, serif;*/
+  font-family: 'Domaine Sans Display', sans-serif;
   font-size: 44px;
   line-height: 62px;
   color: #1a1b1f;
-  /*font-weight: 700;*/
+  font-weight: 600;
   text-transform: None;
 }
 
 h2 { /* headings */
-  font-family: 'DomaineDisplayNarrow Medium', Georgia, serif;
-  font-size: 32px;
+  /*font-family: 'DomaineDisplayNarrow Medium', Georgia, serif;*/
+  /*font-family: 'DomaineDisplay Medium', Georgia, serif;*/
+  font-family: 'Domaine Sans Display', sans-serif;
+  font-size: 30px;
   line-height: 40px;
   color: #143ab8;
-  /*font-weight: 600;*/
+  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -164,7 +169,10 @@ h3 { /* section */
 }
 
 .home-title { /* type */
-  font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;
+  /*font-family: 'DomaineDisplayNarrow Semibold', Georgia, serif;*/
+  /*font-family: 'DomaineDisplay Medium', Georgia, serif;*/
+  font-family: 'Domaine Sans Display', sans-serif;
+  font-weight: 600;
   font-size: 44px;
   letter-spacing: .05rem;
   line-height: 62px;
