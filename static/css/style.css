@@ -5,7 +5,7 @@ body{
   max-width:100%;
   overflow-x: hidden; 
   margin: 0px;
-  font-family: "proxima nova";
+  font-family: "proxima nova", sans-serif;
   color: #525c7a;
   font-weight: 300;
   font-size: 20px;
@@ -142,7 +142,7 @@ h3 { /* section */
 }
 
 .nav-text { /* type */
-  font-family: 'proxima nova';
+  font-family: 'proxima nova', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;
@@ -151,7 +151,7 @@ h3 { /* section */
 }
 
 .nav-selected { /* type */
-  font-family: 'proxima nova';
+  font-family: 'proxima nova', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;
@@ -160,7 +160,7 @@ h3 { /* section */
 }
 
 .footer-text { /* type */
-  font-family: 'proxima nova';
+  font-family: 'proxima nova', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;

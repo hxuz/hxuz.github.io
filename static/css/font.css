@@ -20,7 +20,7 @@
 
 /* Domaine Display */
 
-@font-face {
+/*@font-face {
     font-family: 'DomaineDisplay Regular';
     font-style: normal;
     font-weight: normal;
@@ -39,13 +39,13 @@
     font-style: normal;
     font-weight: normal;
     src: local('DomaineDisplay Bold'), url('../fonts/DomaineDisplay-Bold.woff') format('woff');
-}
+}*/
 
 
 
 /* Domaine Display Narrow */
 
-@font-face {
+/*@font-face {
     font-family: 'DomaineDisplayNarrow Regular';
     font-style: normal;
     font-weight: normal;
@@ -138,4 +138,4 @@
     font-style: normal;
     font-weight: normal;
     src: local('DomaineDisplayNarrow Black Italic'), url('../fonts/DomaineDispNar-BlackItalic.woff') format('woff');
-}
+}*/
