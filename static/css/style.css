@@ -7,15 +7,16 @@ body{
   margin: 0px;
   font-family: "proxima nova", sans-serif;
   color: #525c7a;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
+  line-height: 1.25;
 }
 
 a:link {
   color: #143ab8;
   background-color: transparent;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a.nav-selected:link {
@@ -26,7 +27,7 @@ a.nav-selected:link {
 a.nav-text:link {
   color: #525c7a;
   background-color: transparent;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a.footer-text:link {
@@ -120,12 +121,14 @@ h1 { /* project title */
 
 h2 { /* headings */
   font-family: 'Inconsolata', monospace;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 48px;
   color: #143ab8;
-  font-weight: 800;
+  font-weight: 400;
   text-transform: capitalize;
   font-variant-ligatures: discretionary-ligatures;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 h3 { /* section */
@@ -177,24 +180,26 @@ h4 { /* informational headings */
 
 .home-title { /* type */
   font-family: 'Inconsolata', monospace;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 44px;
   letter-spacing: .05rem;
-  line-height: 62px;
+  line-height: 64px;
   color: #143ab8;
   text-transform: capitalize;
   font-variant-ligatures: discretionary-ligatures;
 }
 
-.label { /* type */
+.label { /* home page project label type */
   font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #1a1b1f;
+  color: #525c7a;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background-color: rgba(20, 58, 184, .2);
+  /*background-color: rgba(20, 58, 184, .15);*/
+  border-style: solid;
+  border-color: #525c7a30;
   border-radius: 4px;
   padding: 3px 10px;
   margin-right: 10px;
@@ -255,11 +260,14 @@ h4 { /* informational headings */
 }
 
 .intro { /* container */
+  display: flex;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  max-width: 960px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1080px;
 }
 
 .about-me { /* container */
@@ -267,15 +275,17 @@ h4 { /* informational headings */
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 1140px;
+  max-width: 1080px;
 }
 
 .project { /* container*/
   position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  max-width: 540px;
+  bottom: 0%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1080px;
 }
 
 .project-page-title { /* container*/
@@ -296,21 +306,22 @@ h4 { /* informational headings */
 }
 
 .button { /* button style */
-  background-color: #143ab8;
+  background-color: #143ab815;
   border: none;
-  color: white;
+  color: #143ab8;
   padding: 9px 18px;
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   border-radius: 4px;
 }
 
 .button:hover { /* button style */
   background-color: #1a1b1f;
+  color: white;
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -388,12 +399,11 @@ h4 { /* informational headings */
 }
 
 .home-dbx { /* container */
-  height: 100vh;
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding-left: 30px;
   padding-right: 30px;
   background-image: url("../images/home-dbx.png");
@@ -402,11 +412,11 @@ h4 { /* informational headings */
 }
 
 .home-retreat { /* container */
-  height: 100vh;
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
-  align-items: center;
+/*  align-items: center;*/
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
@@ -416,11 +426,11 @@ h4 { /* informational headings */
 }
 
 .home-foodo { /* container */
-  height: 100vh;
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
-  align-items: center;
+/*  align-items: center;*/
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
@@ -430,11 +440,11 @@ h4 { /* informational headings */
 }
 
 .home-vera { /* container */
-  height: 100vh;
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
-  align-items: center;
+/*  align-items: center;*/
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
