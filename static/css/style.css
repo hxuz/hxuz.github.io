@@ -8,7 +8,7 @@ body{
   font-family: "proxima nova", sans-serif;
   color: #525c7a;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.25;
 }
 
@@ -133,8 +133,8 @@ h2 { /* headings */
 
 h3 { /* section */
   font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 20px;
   color: #99a2bf;
   /*font-weight: 400;*/
   font-stretch: condensed;
@@ -145,7 +145,7 @@ h3 { /* section */
 h4 { /* informational headings */
   font-family: 'Inconsolata', monospace;
   font-size: 28px;
-  line-height: 40px;
+  line-height: 36px;
   color: #143ab8;
   font-weight: 600;
   font-variant-ligatures: discretionary-ligatures;
@@ -191,18 +191,18 @@ h4 { /* informational headings */
 
 .label { /* home page project label type */
   font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  color: #525c7a;
+  color: #525C7A90;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  /*background-color: rgba(20, 58, 184, .15);*/
-  border-style: solid;
-  border-color: #525c7a30;
+  background-color: rgba(20, 58, 184, .10);
+  /*border-style: solid;
+  border-color: #525c7a30;*/
   border-radius: 4px;
-  padding: 3px 10px;
-  margin-right: 10px;
+  padding: 2px 8px;
+  margin-right: 8px;
 }
 
 .project-intro { /* type */
