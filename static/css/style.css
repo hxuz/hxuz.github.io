@@ -399,8 +399,50 @@ h4 { /* informational headings */
   align-items: baseline;
 }
 
+.home-dashlp { /* container */
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: url("../images/home-dashlp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-dora { /* container */
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: url("../images/home-dora.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-checkout { /* container */
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: url("../images/home-checkout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .home-su { /* container */
-  height: 75vh;
+  height: 70vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -414,7 +456,7 @@ h4 { /* informational headings */
 }
 
 .home-retreat { /* container */
-  height: 75vh;
+  height: 70vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -422,14 +464,14 @@ h4 { /* informational headings */
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url("../images/home-retreat1.png");
+  background-image: url("../images/home-retreat2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .home-foodo { /* container */
-  height: 75vh;
+  height: 70vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -437,14 +479,14 @@ h4 { /* informational headings */
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url("../images/home-foodo1.png");
+  background-image: url("../images/home-foodo2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .home-vera { /* container */
-  height: 75vh;
+  height: 70vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -452,7 +494,7 @@ h4 { /* informational headings */
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url("../images/home-vera1.png");
+  background-image: url("../images/home-vera2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
