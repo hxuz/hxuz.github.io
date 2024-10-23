@@ -7,7 +7,7 @@ body{
   overflow-x: hidden; 
   margin: 0px;
   font-family: "proxima nova", sans-serif;
-  color: #525c7a;
+  color: #222944;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -110,17 +110,17 @@ a.footer-text:active {
   transition: 0.3s ease;
 }
 
-h1 { /* project title */
+h1 { /* project title - same as home-title */
   font-family: 'Inconsolata', monospace;
-  font-size: 44px;
-  line-height: 62px;
-  color: #1a1b1f;
-  font-weight: 800;
-  text-transform: None;
+  font-size: 32px;
+  letter-spacing: .05rem;
+  line-height: 44px;
+  color: #143ab8;
+  font-weight: 400;
   font-variant-ligatures: discretionary-ligatures;
 }
 
-h2 { /* headings */
+h2 { /* headings - home page heading*/
   font-family: 'Inconsolata', monospace;
   font-size: 40px;
   line-height: 48px;
@@ -145,11 +145,19 @@ h3 { /* section */
 
 h4 { /* informational headings */
   font-family: 'Inconsolata', monospace;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 36px;
   color: #143ab8;
-  font-weight: 600;
+  font-weight: 400;
   font-variant-ligatures: discretionary-ligatures;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+li {
+  padding-bottom: 0.5rem;
 }
 
 .nav-text { /* type */
@@ -186,7 +194,7 @@ h4 { /* informational headings */
   letter-spacing: .05rem;
   line-height: 44px;
   color: #143ab8;
-  text-transform: capitalize;
+  text-transform: None;
   font-variant-ligatures: discretionary-ligatures;
 }
 
@@ -207,7 +215,7 @@ h4 { /* informational headings */
 }
 
 .project-intro { /* type */
-  color: #525c7a;
+  color: #222944;
   font-weight: 400;
 }
 
@@ -231,12 +239,12 @@ h4 { /* informational headings */
   display: flex;
 }
 
-.project-page-intro-dbx { /* container */
+.project-page-intro-checkout { /* background img container */
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/banner-dbx.png");
+  background-image: url("../images/checkout.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -290,12 +298,13 @@ h4 { /* informational headings */
   padding-left: 15px;
 }
 
-.project-page-title { /* container */
+/* container */
+/*.project-page-title {
   position: absolute;
   bottom: 10%;
   -ms-transform: translateY(10%);
   transform: translateY(10%);
-}
+}*/
 
 .scroll { /* container */
   position: absolute;
@@ -323,7 +332,7 @@ h4 { /* informational headings */
 
 .button:hover { /* button style */
   background-color: #1a1b1f;
-  color: white;
+  color: #F6F9FF;
   transition: 0.3s ease;
   cursor: pointer;
 }
