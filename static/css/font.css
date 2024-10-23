@@ -16,6 +16,21 @@
     url('../fonts/ProximaNovaCondensed/ProximaNovaCond-RegularIt.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'ProximaNovaCond LightIt';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNovaCond LightIt'), 
+    url('../fonts/ProximaNovaCondensed/ProximaNovaCond-LightIt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ProximaNovaCond Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNovaCond Light'), 
+    url('../fonts/ProximaNovaCondensed/ProximaNovaCond-Light.woff') format('woff');
+}
 
 
 /* Domaine Display */

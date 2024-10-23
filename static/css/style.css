@@ -1,6 +1,7 @@
 @import url("font.css");
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 body{
   max-width:100%;
   overflow-x: hidden; 
@@ -125,18 +126,18 @@ h2 { /* headings */
   line-height: 48px;
   color: #143ab8;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: None;
   font-variant-ligatures: discretionary-ligatures;
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
 h3 { /* section */
-  font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
+  font-family: 'ProximaNovaCond Light', Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #99a2bf;
-  /*font-weight: 400;*/
+  font-weight: 300;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -289,7 +290,7 @@ h4 { /* informational headings */
   padding-left: 15px;
 }
 
-.project-page-title { /* container*/
+.project-page-title { /* container */
   position: absolute;
   bottom: 10%;
   -ms-transform: translateY(10%);
@@ -399,8 +400,8 @@ h4 { /* informational headings */
   align-items: baseline;
 }
 
-.home-dashlp { /* container */
-  height: 70vh;
+.home-dashlp { /* container (full width) */
+  height: 100vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -413,8 +414,8 @@ h4 { /* informational headings */
   background-position: center;
 }
 
-.home-dora { /* container */
-  height: 70vh;
+.home-dora { /* container (full width) */
+  height: 100vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -427,8 +428,8 @@ h4 { /* informational headings */
   background-position: center;
 }
 
-.home-checkout { /* container */
-  height: 70vh;
+.home-checkout { /* container (full width) */
+  height: 100vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -441,8 +442,8 @@ h4 { /* informational headings */
   background-position: center;
 }
 
-.home-su { /* container */
-  height: 70vh;
+.home-su { /* container (full width) */
+  height: 100vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -455,8 +456,8 @@ h4 { /* informational headings */
   background-position: center;
 }
 
-.home-retreat { /* container */
-  height: 70vh;
+.home-retreat { /* container (for small block) */
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -470,8 +471,8 @@ h4 { /* informational headings */
   background-position: center;
 }
 
-.home-foodo { /* container */
-  height: 70vh;
+.home-foodo { /* container (for small block) */
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -485,8 +486,8 @@ h4 { /* informational headings */
   background-position: center;
 }
 
-.home-vera { /* container */
-  height: 70vh;
+.home-vera { /* container (for small block) */
+  height: 67vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -515,8 +516,10 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/infographic.png");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #ds100:hover {
@@ -527,9 +530,11 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/ds100.gif");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 16px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #ds-proj:hover {
@@ -540,9 +545,11 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/ds-proj.png");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 16px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #knitting:hover {
@@ -553,9 +560,11 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/knitting.png");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 16px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #nail:hover {
@@ -566,8 +575,10 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/nail.png");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #baking:hover {
@@ -578,9 +589,11 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/baking.JPG");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 16px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #twig:hover {
@@ -591,9 +604,11 @@ h4 { /* informational headings */
   opacity: 100%;
   content: url("../images/twig.jpeg");
   transition: 0.3s ease;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 16px;
   float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .footer { /* container */
