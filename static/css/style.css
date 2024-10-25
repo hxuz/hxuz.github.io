@@ -2,15 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-body{
+body {
   max-width:100%;
   overflow-x: hidden; 
   margin: 0px;
   font-family: "proxima nova", sans-serif;
-  color: #222944;
-  font-weight: 400;
+  color: #525c7a;
+  font-weight: 300;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 16px;
 }
 
 a:link {
@@ -133,11 +137,10 @@ h2 { /* headings - home page heading*/
 }
 
 h3 { /* section */
-  font-family: 'ProximaNovaCond Light', Arial, sans-serif;
+  font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  color: #99a2bf;
-  font-weight: 300;
+  color: #1A1B1F;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -145,11 +148,15 @@ h3 { /* section */
 
 h4 { /* informational headings */
   font-family: 'Inconsolata', monospace;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 28px;
   color: #143ab8;
   font-weight: 400;
   font-variant-ligatures: discretionary-ligatures;
+}
+
+b {
+  font-weight: 600;
 }
 
 ul {
@@ -216,7 +223,7 @@ li {
 
 .project-intro { /* type */
   color: #222944;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .header { /* container */
@@ -250,7 +257,7 @@ li {
 }
 
 .contents-padding { /* container */
-  max-width: 1140px;
+  max-width: 960px;
   position: static;
   align-items: left;
   justify-content: left;
