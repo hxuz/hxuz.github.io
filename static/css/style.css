@@ -238,15 +238,18 @@ li {
   padding-right: 30px;
 }
 
-.project-page-header { /* container */
+/* container */
+/*.project-page-header {
   height: 60vh;
   width: 100vw;
   background-color: white;
   position: relative;
   display: flex;
-}
+}*/
 
 .project-page-intro-checkout { /* background img container */
+  height: 75vh;
+  width: 100vw;
   position: relative;
   display: flex;
   align-items: center;
@@ -254,6 +257,7 @@ li {
   background-image: url("../images/checkout.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .contents-padding { /* container */
