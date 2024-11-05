@@ -266,7 +266,7 @@ li {
 }
 
 .contents-padding { /* container */
-  max-width: 960px;
+  max-width: 1140px;
   position: static;
   align-items: left;
   justify-content: left;
