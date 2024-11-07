@@ -2,12 +2,11 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   //do nothing
 }else {
   $('#fullpage').fullpage({
-    // sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
     sectionSelector: '.vertical-scrolling',
-    autoScrolling: true,
-    dragAndMove: true,
-    scrollOverflow: true,
-    scrolloverflowmacstyle: false,
+    // dragAndMove: true,
+    // autoScrolling: true,
+    // scrollOverflow: true,
+    // scrolloverflowmacstyle: false,
     // scrollOverflow: true,
     // navigation: true,
     // slidesNavigation: true,
