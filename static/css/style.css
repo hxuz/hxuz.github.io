@@ -516,7 +516,7 @@ li {
 }
 
 .home-vera { /* container (for small block) */
-  height: calc(100vh - 121px);
+  height: calc(100vh - 121px) !important;
   width: 100vw;
   position: relative;
   display: flex;
