@@ -9,7 +9,7 @@ body {
   font-family: "proxima nova", sans-serif;
   color: #525c7a;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 }
 
 p {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 a:link {
@@ -131,7 +131,7 @@ h1 { /* project title - same as home-title */
 h2 { /* headings - home page heading*/
   font-family: 'Inconsolata', monospace;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 1.25;
   color: #143ab8;
   font-weight: 400;
   text-transform: None;
@@ -142,8 +142,8 @@ h2 { /* headings - home page heading*/
 
 h3 { /* section */
   font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 1.25;
   color: #1A1B1F;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
@@ -152,8 +152,8 @@ h3 { /* section */
 
 h4 { /* informational headings */
   font-family: 'Inconsolata', monospace;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 24px;
+  line-height: 1.25;
   color: #143ab8;
   font-weight: 400;
   font-variant-ligatures: discretionary-ligatures;
