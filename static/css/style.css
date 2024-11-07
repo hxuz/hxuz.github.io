@@ -309,7 +309,7 @@ li {
 
 .project { /* container*/
   position: absolute;
-  bottom: 0%;
+  bottom: 5%;
   left: 50%;
   -ms-transform: translate(-50%, -25%);
   transform: translate(-50%, -25%);
