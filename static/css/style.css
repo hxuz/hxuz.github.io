@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 p {
   margin-bottom: 16px;
 }
