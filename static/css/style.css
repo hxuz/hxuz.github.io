@@ -1,21 +1,22 @@
 @import url("font.css");
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');*/
 
 
 body {
   max-width:100%;
   overflow-x: hidden; 
   margin: 0px;
-  font-family: "proxima nova", sans-serif;
-  color: #525c7a;
+  font-family: "ProximaNova", sans-serif;
+  font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
+  color: #525c7a;
 }
 
-body::-webkit-scrollbar {
+/*body::-webkit-scrollbar {
   display: none;
-}
+}*/
 
 p {
   margin-bottom: 18px;
@@ -120,9 +121,9 @@ a.footer-text:active {
 
 h1 { /* project title - same as home-title */
   font-family: 'Inconsolata', monospace;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: .05rem;
-  line-height: 44px;
+  line-height: 40px;
   color: #143ab8;
   font-weight: 400;
   font-variant-ligatures: discretionary-ligatures;
@@ -130,7 +131,7 @@ h1 { /* project title - same as home-title */
 
 h2 { /* headings - home page heading*/
   font-family: 'Inconsolata', monospace;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 1.25;
   color: #143ab8;
   font-weight: 400;
@@ -172,7 +173,7 @@ li {
 }
 
 .nav-text { /* type */
-  font-family: 'proxima nova', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;
@@ -181,16 +182,16 @@ li {
 }
 
 .nav-selected { /* type */
-  font-family: 'proxima nova', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   color: #1a1b1f;
 }
 
 .footer-text { /* type */
-  font-family: 'proxima nova', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 14px;
@@ -201,9 +202,9 @@ li {
 .home-title { /* type */
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: .05rem;
-  line-height: 44px;
+  line-height: 40px;
   color: #143ab8;
   text-transform: None;
   font-variant-ligatures: discretionary-ligatures;
