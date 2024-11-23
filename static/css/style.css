@@ -214,11 +214,11 @@ li {
   font-family: 'ProximaNovaCond Regular', Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
-  color: #525C7A90;
+  color: #525C7A;
   font-stretch: condensed;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background-color: rgba(20, 58, 184, .10);
+  background-color: rgba(20, 58, 184, .08);
   /*border-style: solid;
   border-color: #525c7a30;*/
   border-radius: 4px;
@@ -537,7 +537,7 @@ li {
 }
 
 .blah-blah {
-  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:20px;'><text y='50%'>🔍</text></svg>"),auto;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewport='0 0 100 100' style='fill:black;font-size:20px;'><text y='50%'>🔍</text></svg>"),auto;
 }
 
 #hobby-img {
@@ -548,7 +548,7 @@ li {
 }
 
 #infographic:hover { /* cursor */
-  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🎨</text></svg>"),auto;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🎨</text></svg>"),auto;
 }
 
 #infographic:hover ~ #hobby-img {
@@ -562,7 +562,7 @@ li {
 }
 
 #ds100:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>👩‍🏫</text></svg>"),auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>👩‍🏫</text></svg>"),auto;
 }
 
 #ds100:hover ~ #hobby-img {
@@ -577,7 +577,7 @@ li {
 }
 
 #ds-proj:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🤖</text></svg>"),auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🤖</text></svg>"),auto;
 }
 
 #ds-proj:hover ~ #hobby-img {
@@ -591,8 +591,23 @@ li {
   transform: translateY(-20%);
 }
 
+#making:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>⚙️</text></svg>"),auto;
+}
+
+#making:hover ~ #making-img {
+  opacity: 100%;
+  content: url("../images/making.png");
+  transition: 0.3s ease;
+  max-height: 300px;
+  border-radius: 16px;
+  float: right;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
+}
+
 #knitting:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🧶</text></svg>"),auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🧶</text></svg>"),auto;
 }
 
 #knitting:hover ~ #hobby-img {
@@ -607,7 +622,7 @@ li {
 }
 
 #nail:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>💅</text></svg>"),auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>💅</text></svg>"),auto;
 }
 
 #nail:hover ~ #hobby-img {
@@ -621,7 +636,7 @@ li {
 }
 
 #baking:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🥐</text></svg>"),auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🥐</text></svg>"),auto;
 }
 
 #baking:hover ~ #hobby-img {
@@ -636,7 +651,7 @@ li {
 }
 
 #twig:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🐱</text></svg>"),auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🐱</text></svg>"),auto;
 }
 
 #twig:hover ~ #hobby-img {
