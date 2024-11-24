@@ -555,7 +555,7 @@ li {
   opacity: 100%;
   content: url("../images/infographic.png");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   float: right;
   -ms-transform: translateY(-20%);
   transform: translateY(-20%);
@@ -569,7 +569,7 @@ li {
   opacity: 100%;
   content: url("../images/ds100.gif");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 16px;
   float: right;
   -ms-transform: translateY(-20%);
@@ -584,7 +584,7 @@ li {
   opacity: 100%;
   content: url("../images/ds-proj.png");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 16px;
   float: right;
   -ms-transform: translateY(-20%);
@@ -595,11 +595,11 @@ li {
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>⚙️</text></svg>"),auto;
 }
 
-#making:hover ~ #making-img {
+#making:hover ~ #hobby-img {
   opacity: 100%;
   content: url("../images/making.png");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 16px;
   float: right;
   -ms-transform: translateY(-20%);
@@ -612,9 +612,9 @@ li {
 
 #knitting:hover ~ #hobby-img {
   opacity: 100%;
-  content: url("../images/knitting.png");
+  content: url("../images/crochet.png");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 16px;
   float: right;
   -ms-transform: translateY(-20%);
@@ -629,7 +629,7 @@ li {
   opacity: 100%;
   content: url("../images/nail.png");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   float: right;
   -ms-transform: translateY(-20%);
   transform: translateY(-20%);
@@ -643,7 +643,7 @@ li {
   opacity: 100%;
   content: url("../images/baking.JPG");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 16px;
   float: right;
   -ms-transform: translateY(-20%);
@@ -658,7 +658,7 @@ li {
   opacity: 100%;
   content: url("../images/twig.jpeg");
   transition: 0.3s ease;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 16px;
   float: right;
   -ms-transform: translateY(-20%);
