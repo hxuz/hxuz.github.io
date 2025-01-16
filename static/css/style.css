@@ -532,7 +532,13 @@ li {
 }
 
 .pdf {
-  height: 100vh;
+  aspect-ratio : 4 / 3;
+  width: 100%;
+}
+
+.figma-iframe {
+  /* height: 80vw; */
+  aspect-ratio : 4 / 3;
   width: 100%;
 }
 
