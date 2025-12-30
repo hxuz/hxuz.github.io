@@ -1,0 +1,53 @@
+@import url("font-new.css");
+@import url("token.css");
+
+body {
+  
+  background: linear-gradient(125deg, var(--color-bg-base) 8.44%, var(--color-bg-subtle) 91.56%), var(--color-bg-page);
+
+  max-width:100%;
+  overflow-x: hidden; 
+  margin: 0rem;
+  color: var(--color-text-base);
+  font-family: "Satoshi", sans-serif;
+  -webkit-font-feature-settings: "ss03" 1;
+  -moz-font-feature-settings: "ss03" 1;
+  font-feature-settings: "ss03" 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--fontSize-regular);
+  line-height: 125%;
+
+}
+
+h1 {
+  margin: 0rem;
+  color: var(--color-identity-primary);
+  font-family: "Fragment Mono", monospace;
+  font-size: var(--fontSize-xlarge);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  text-transform: lowercase;
+}
+
+p {
+	margin: 0rem;
+}
+
+@theme {
+  --color-*: initial;
+  --color-bunker-90: oklch(22.28% 0.0079 274.57);
+  --color-mirage-90: oklch(22.63% 0.0318 272.87);
+  --color-ebony-clay-80: oklch(27.38% 0.0419 271.76);
+  --color-fiord-65: oklch(43.62% 0.0327 269.16);
+  --color-raven-50: oklch(57.99% 0.0289 268.63);
+  --color-cadet-blue-25: oklch(78.5% 0.0289 274.55);
+  --color-mercury-10: oklch(91.68% 0.0082 278.63);
+  --color-concrete-5: oklch(96.07% 0.0017 247.84);
+  --color-white-0: oklch(100% 0 0);
+  --color-sapphire-60: oklch(43.05% 0.1168 273.84);
+  --color-persian-blue-60: oklch(41.93% 0.2014 264.93);
+  --color-cornflower-blue-25: oklch(71.66% 0.1467 269.95);
+  --color-periwinkle-10: oklch(86.27% 0.0672 271.96);
+}

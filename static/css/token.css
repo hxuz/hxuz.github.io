@@ -1,0 +1,92 @@
+@import url("font-new.css");
+
+:root {
+  color-scheme: light dark;
+
+  /* core tokens */
+  /* spacing */
+  --spacing-tiny: 0.25rem; /* 4px */
+  --spacing-xsmall: 0.5rem; /* 8px */
+  --spacing-small: 0.75rem; /* 12px */
+  --spacing-medium: 1rem; /* 16px */
+  --spacing-large: 1.25rem; /* 20px */
+  --spacing-slarge: 2rem; /* 32px */
+  --spacing-wide: 2.5rem; /* 40px */
+
+  /* font size */
+  --fontSize-small: 0.875rem; /* 14px */
+  --fontSize-regular: 1.125rem; /* 18px */
+  --fontSize-medium: 1.25rem; /* 20px */
+  --fontSize-large: 1.5rem; /* 24px */
+  --fontSize-xlarge: 1.75rem; /* 28px */
+
+  /* radius */
+  --radius-small: 0.5rem; /* 8px */
+  --radius-regular: 1rem; /* 16px */
+  --radius-large: 1.5rem; /* 24px */
+ 
+  /* base corlors */
+  --carbon-black-90: hsla(228, 9%, 11%, 1);
+  --shadow-grey-90: hsla(228, 30%, 13%, 1);
+  --space-indigo-80: hsla(227, 30%, 18%, 1);
+  --charcoal-blue-65: hsla(224, 15%, 34%, 1);
+  --slate-grey-50: hsla(223, 10%, 50%, 1);
+  --pale-blue-25: hsla(226, 20%, 75%, 1);
+  --alabaster-grey-10: hsla(231, 14%, 90%, 1);
+  --platinum-5: hsla(210, 8%, 95%, 1);
+  --white-0: hsla(0, 0%, 100%, 1);
+  --french-blue-60: hsla(232, 40%, 40%, 1);
+  --persian-blue-60: hsla(226, 80%, 40%, 1);
+  --wisteria-blue-25: hsla(226, 100%, 75%, 1);
+  --periwinkle-10: hsla(226, 100%, 88%, 1);
+
+  /* background opacity */
+  --platinum-opacity-50: hsla(210, 8%, 95%, 0.5);
+  --alabaster-grey-opacity-50: hsla(231, 14%, 90%, 0.5);
+  --shadow-grey-opacity-50: hsla(228, 30%, 13%, 0.5);
+  --space-indigo-opacity-50: hsla(227, 30%, 18%, 0.5);
+
+  /* identity opacity */
+  --persian-blue-opacity-33: hsla(226, 80%, 40%, 0.33);
+  --persian-blue-opacity-15: hsla(226, 80%, 40%, 0.15);
+  --persian-blue-opacity-5: hsla(226, 80%, 40%, 0.05);
+
+  --wisteria-blue-opacity-45: hsla(226, 100%, 75%, 0.45);
+  --wisteria-blue-opacity-33: hsla(226, 100%, 75%, 0.33);
+  --wisteria-blue-opacity-15: hsla(226, 100%, 75%, 0.15);
+  --wisteria-blue-opacity-5: hsla(226, 100%, 75%, 0.05);
+
+  /* drop shadow */
+  --shadow-opacity-light: hsla(228, 30%, 13%, 0.03);
+  --shadow-opacity-dark: hsla(228, 30%, 13%, 0.1);
+
+  /* semantic tokens (using core tokens) */
+  /*background colors*/
+  --color-bg-base: light-dark(var(--platinum-opacity-50), var(--shadow-grey-opacity-50));
+  --color-bg-subtle: light-dark(var(--alabaster-grey-opacity-50), var(--space-indigo-opacity-50));
+  --color-bg-page: light-dark(var(--white-0), var(--carbon-black-90));
+
+  /* text colors */
+  --color-text-base: light-dark(var(--shadow-grey-90), var(--alabaster-grey-10));
+  --color-text-subtle: light-dark(var(--slate-grey-50), var(--slate-grey-50));
+  --color-text-faint: light-dark(var(--pale-blue-25), var(--charcoal-blue-65));
+
+  /* border colors */
+  --color-border-base: light-dark(var(--pale-blue-25), var(--slate-grey-50));
+  --color-border-subtle: light-dark(var(--persian-blue-opacity-15), var(--wisteria-blue-opacity-45));
+
+  /* pacity */
+  --color-opacity-base: light-dark(var(--persian-blue-opacity-5), var(--wisteria-blue-opacity-15));
+  --color-opacity-state1: light-dark(var(--persian-blue-opacity-15), var(--wisteria-blue-opacity-33));
+
+  /* dentity colors */
+  --color-identity-primary: light-dark(var(--persian-blue-60), var(--wisteria-blue-25));
+  --color-identity-on-primary: light-dark(var(--alabaster-grey-10), var(--space-indigo-80));
+  --color-identity-secondary: light-dark(var(--periwinkle-10), var(--french-blue-60));
+  --color-identity-on-secondary: light-dark(var(--french-blue-60), var(--periwinkle-10));
+  --color-identity-muted: light-dark(var(--pale-blue-25), var(--slate-grey-50));
+  --color-identity-on-muted: light-dark(var(--charcoal-blue-65), var(--alabaster-grey-10));
+
+  /* image color filter */
+  --color-image-filter: light-dark(var(--wisteria-blue-opacity-33), var(--persian-blue-opacity-33));
+}
