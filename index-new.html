@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
     <meta name="robots" content="noindex">
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-
-    <link rel="stylesheet" type="text/css" href="static/css/style-new.css">
     <link rel="stylesheet" type="text/css" href="static/css/font-new.css">
     <link rel="stylesheet" type="text/css" href="static/css/token.css">
+    <link href="./static/css/output.css" rel="stylesheet">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>">
 
@@ -29,17 +27,47 @@
   <body>
 
     <!--intro-->
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <h1>Hi, I’m Helen,<br>a designer of all sorts.</h1>
-      <p>I craft meaningful & delightful visual and interactive experiences from 9 to 5; from 5 to 9, I’m a maker, creating tangible stuff for fun.</p>
+    <div class="max-w-288 m-auto min-h-screen xs:max-w-sm grid grid-cols-2 gap-10 xs:grid-cols-1 xs:gap-4">
+      <div class="col-span-1 content-center">
+        <h1 class="pb-4">Hi, I’m Helen,<br>a designer of all sorts.</h1>
+        <p class="pb-10">I craft meaningful & delightful visual and interactive experiences from 9 to 5; from 5 to 9, I’m a maker, creating tangible stuff for fun.</p>
+
+        <!-- menu -->
+        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)]">
+          <div class="basis-full">
+            <h3 class="pb-2">Work</h3>
+            <p class="fontStyle-desc">work samples in very brief versions</p>
+          </div>
+          <p class="basis-25 content-center text-right text-[var(--color-text-subtle)]">&#8594;</p>
+        </div>
+
+        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)]">
+          <div class="basis-full">
+            <h3 class="pb-2">Blah</h3>
+            <p class="fontStyle-desc">Random stuff that Helen enjoys doing</p>
+          </div>
+          <p class="basis-25 content-center text-right text-[var(--color-text-subtle)]">&#8594;</p>
+        </div>
+
+        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)]">
+          <div class="basis-full">
+            <h3 class="pb-2">Me</h3>
+            <p class="fontStyle-desc">The README.md</p>
+          </div>
+          <p class="basis-25 content-center text-right text-[var(--color-text-subtle)]">&#8594;</p>
+        </div>
+      </div>
+
+      <div class="col-span-1 content-center">
+        <div class="float-right relative image-frame-nocap h-fit w-fit group">
+          <img class="rounded-2xl" src="static/images/home-photo.JPG"></img>
+          <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">Photo credit · my dad</p></div>
+        </div>
+      </div>
     </div>
 
   <!-- Optional JavaScript -->
     <script src="static/js/script.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
   
   </body>
 </html>

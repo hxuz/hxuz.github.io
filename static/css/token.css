@@ -14,11 +14,12 @@
   --spacing-wide: 2.5rem; /* 40px */
 
   /* font size */
+  --fontSize-xsmall: 0.625rem; /* 10px */
   --fontSize-small: 0.875rem; /* 14px */
   --fontSize-regular: 1.125rem; /* 18px */
   --fontSize-medium: 1.25rem; /* 20px */
   --fontSize-large: 1.5rem; /* 24px */
-  --fontSize-xlarge: 1.75rem; /* 28px */
+  --fontSize-xlarge: 2rem; /* 32px */
 
   /* radius */
   --radius-small: 0.5rem; /* 8px */
@@ -74,10 +75,21 @@
   /* border colors */
   --color-border-base: light-dark(var(--pale-blue-25), var(--slate-grey-50));
   --color-border-subtle: light-dark(var(--persian-blue-opacity-15), var(--wisteria-blue-opacity-45));
+  --color-border-subtle0: light-dark(var(--persian-blue-opacity-5), var(--wisteria-blue-opacity-5));
+  --border-subtle-gradient: linear-gradient(
+    to right,  
+    var(--color-border-subtle0), 
+    var(--color-border-subtle), 10%, 
+    var(--color-border-subtle), 90%, 
+    var(--color-border-subtle0)
+  );
 
-  /* pacity */
+  /* opacity */
   --color-opacity-base: light-dark(var(--persian-blue-opacity-5), var(--wisteria-blue-opacity-15));
   --color-opacity-state1: light-dark(var(--persian-blue-opacity-15), var(--wisteria-blue-opacity-33));
+
+  /* shadow */
+  --color-shadow: light-dark(var(--shadow-opacity-light), var(--shadow-opacity-dark));
 
   /* dentity colors */
   --color-identity-primary: light-dark(var(--persian-blue-60), var(--wisteria-blue-25));
