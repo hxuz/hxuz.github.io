@@ -11,6 +11,70 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+const hoverInfo = document.getElementById("info");
+const hoverInfoImg = document.getElementById("info-img");
+
+const hoverMl = document.getElementById("ml");
+const hoverMlImg = document.getElementById("ml-img");
+
+// const hoverTwig = document.getElementById("twig");
+// const hoverTwigImg = document.getElementById("twig-img");
+
+// const hoverCrochet = document.getElementById("crochet");
+// const hoverCrochetImg = document.getElementById("chrochet-img");
+
+// const hoverMake = document.getElementById("make");
+// const hoverMakeImg = document.getElementById("make-img");
+
+// const hoverFilm = document.getElementById("film");
+// const hoverFilmImg = document.getElementById("film-img");
+
+hoverInfo.addEventListener('mouseenter', () => {
+    // hoverInfoImg.style.opacity = 1;
+    hoverInfoImg.style.display = "block";
+    // hoverInfoImg.style.transition = "0.3 ease";
+});
+hoverInfo.addEventListener('mouseleave', () => {
+    // hoverInfoImg.style.opacity = 0;
+    hoverInfoImg.style.display = "none";
+});
+
+hoverMl.addEventListener('mouseenter', () => {
+    hoverMlImg.style.display = "block";
+});
+hoverMl.addEventListener('mouseleave', () => {
+    hoverMlImg.style.display = "none";
+});
+
+// hoverTwig.addEventListener('mouseenter', () => {
+//     hoverTwigImg.style.display = "block";
+// });
+// hoverTwig.addEventListener('mouseleave', () => {
+//     hoverTwigImg.style.display = "none";
+// });
+
+// hoverCrochet.addEventListener('mouseenter', () => {
+//     hoverCrochetImg.style.display = "block";
+// });
+// hoverCrochet.addEventListener('mouseleave', () => {
+//     hoverCrochetImg.style.display = "none";
+// });
+
+// hoverMake.addEventListener('mouseenter', () => {
+//     hoverMakeImg.style.display = "block";
+// });
+// hoverMake.addEventListener('mouseleave', () => {
+//     hoverMakeImg.style.display = "none";
+// });
+
+// hoverFilm.addEventListener('mouseenter', () => {
+//     hoverFilm Img.style.display = "block";
+// });
+// hoverFilm.addEventListener('mouseleave', () => {
+//     hoverFilmImg.style.display = "none";
+// });
+
+
 // /* Show and hide popup window */
 // window.onload = function() {
 // 	$("#overlay").show();

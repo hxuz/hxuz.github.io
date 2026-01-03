@@ -26,24 +26,6 @@
   </script>
 
   <body>
-    <!-- 01 header -->
-    <!-- intro-->
-<!--     <div class="col-md-12 about-me vert-center hori-top text-left" style="flex-direction: column;">
-        <p>before i became a designer...</p>
-        <h3 class="funfact" id="infographic">I made infographics</h3>
-        <h3 class="funfact" id="ds-proj">I trained models for AI/ML</h3>
-        <h3 class="funfact" id="ds-proj" id="ds100">I did machine learning</h3>
-
-        <p style="padding-top: 10px;">when i'm not designing...</p>
-        <h3 class="funfact" id="making">I immerse myself in maker's space</h3>
-        <h3 class="funfact" id="knitting">I'm crocheting</h3>
-        <h3 class="funfact" id="nail">I'm doing my own nails</h3>
-        <h3 class="funfact" id="baking">I'm baking</h3>
-        <h3 class="funfact" id="twig">I'm cuddling my cat Twig</h3>
-
-        <img id="hobby-img" src="static/images/about-me-photo.jpg" style="max-height: 400px;"></img>
-    </div> -->
-
     <!-- navbar -->
     <div id="nav-bar" class="fixed top-0 topnav w-full flex p-8">
       <div class="grow">
@@ -67,12 +49,15 @@
           <p class="basis-25 fontStyle-desc">version</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
-          <p class="basis-full content-center fontStyle-list">i_made_infographics.png</p>
+        <div id="info" class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
+          <div class="group basis-full flex items-center gap-1">
+            <p class="fontStyle-list" href="#">i_made_infographics.png</p>
+            <svg class="hidden group-has-[a]:block" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.40426 11.8891C3.209 12.0844 3.209 12.401 3.40426 12.5962C3.59952 12.7915 3.9161 12.7915 4.11137 12.5962L3.75781 12.2427L3.40426 11.8891ZM12.7431 3.75739C12.7431 3.48125 12.5192 3.25739 12.2431 3.25739L7.74309 3.25739C7.46695 3.25739 7.24309 3.48125 7.24309 3.75739C7.24309 4.03354 7.46695 4.25739 7.74309 4.25739L11.7431 4.25739L11.7431 8.25739C11.7431 8.53354 11.967 8.75739 12.2431 8.75739C12.5192 8.75739 12.7431 8.53354 12.7431 8.25739L12.7431 3.75739ZM3.75781 12.2427L4.11137 12.5962L12.5966 4.11095L12.2431 3.75739L11.8895 3.40384L3.40426 11.8891L3.75781 12.2427Z" fill="var(--color-text-base)"/></svg>
+          </div>
           <p class="basis-25 content-center fontStyle-desc">08 / 2021</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] mb-10">
+        <div id="ml" class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] mb-10">
           <p class="basis-full content-center fontStyle-list">i_trained_machine_learning_models.ipynb</p>
           <p class="basis-25 content-center fontStyle-desc">05 / 2021</p>
         </div>
@@ -85,22 +70,22 @@
           <p class="basis-25 fontStyle-desc">version</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
+        <div id="twig" class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
           <p class="basis-full content-center fontStyle-list">i_cuddle_my_kitty_twig.jpeg</p>
           <p class="basis-25 content-center fontStyle-desc">09 / 2024</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
+        <div id="crochet" class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
           <p class="basis-full content-center fontStyle-list">i_crochet.jpeg</p>
           <p class="basis-25 content-center fontStyle-desc">10 / 2023</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
+        <!-- <div id="bake" class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
           <p class="basis-full content-center fontStyle-list">i_bake.jpeg</p>
           <p class="basis-25 content-center fontStyle-desc">08 / 2021</p>
-        </div>
+        </div> -->
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] mb-10">
+        <div id="make" class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] mb-10">
           <p class="basis-full content-center fontStyle-list">im_in_makers_space.jpeg</p>
           <p class="basis-25 content-center fontStyle-desc">05 / 2021</p>
         </div>
@@ -113,26 +98,64 @@
           <p class="basis-25 fontStyle-desc">version</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
-          <p class="basis-full content-center fontStyle-list">point-and-shoot_film_cameras.html</p>
+        <div id="film" class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)]">
+          <div class="group basis-full flex items-center gap-1">
+            <a class="fontStyle-list" href="#">point-and-shoot_film_cameras.html</a>
+            <svg class="hidden group-has-[a]:block" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.40426 11.8891C3.209 12.0844 3.209 12.401 3.40426 12.5962C3.59952 12.7915 3.9161 12.7915 4.11137 12.5962L3.75781 12.2427L3.40426 11.8891ZM12.7431 3.75739C12.7431 3.48125 12.5192 3.25739 12.2431 3.25739L7.74309 3.25739C7.46695 3.25739 7.24309 3.48125 7.24309 3.75739C7.24309 4.03354 7.46695 4.25739 7.74309 4.25739L11.7431 4.25739L11.7431 8.25739C11.7431 8.53354 11.967 8.75739 12.2431 8.75739C12.5192 8.75739 12.7431 8.53354 12.7431 8.25739L12.7431 3.75739ZM3.75781 12.2427L4.11137 12.5962L12.5966 4.11095L12.2431 3.75739L11.8895 3.40384L3.40426 11.8891L3.75781 12.2427Z" fill="var(--color-text-base)"/></svg>
+          </div>
           <p class="basis-25 content-center fontStyle-desc">01 / 2025</p>
         </div>
 
-        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] mb-10">
+        <!-- <div id="coffee" class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] mb-10">
           <p class="basis-full content-center fontStyle-list">coffee_hopping_in_east_seattle.jpeg</p>
           <p class="basis-25 content-center fontStyle-desc">01 / 2025</p>
-        </div>
+        </div> -->
       </div>
 
       <div class="col-span-1 content-center">
-        <div class="float-right relative image-frame-nocap h-fit w-fit group">
-          <img class="rounded-2xl" src="static/images/about-me-photo.JPG"></img>
-          <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">Photo credit · IG @tonywang1997</p></div>
+        <div id="info-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/infographic.png"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
         </div>
+
+        <div id="ml-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/ds-proj.png"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div>
+
+        <!-- <div id="twig-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/twig.jpeg"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div>
+
+        <div id="crochet-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/crochet.png"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div> -->
+
+        <!-- <div id="bake-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/baking.JPG"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div> -->
+
+        <!-- <div id="make-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/making.png"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div>
+
+        <div id="film-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/infographic.png"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div> -->
+
+        <!-- <div id="coffee-img" class="hidden float-right relative image-frame-nocap h-fit w-fit">
+          <img class="rounded-2xl" src="static/images/infographic.png"></img>
+          <div class="absolute bottom-0.5 inset-x-0"><p class="fontStyle-caption">File preview</p></div>
+        </div> -->
       </div>
     </div>
 
-    <!-- 02 footer -->
+    <!-- footer -->
     <div class="fixed bottom-0 w-full flex xs:flex-wrap p-8">
       <div class="grow fontStyle-footer">
         Designed & built in Seattle &copy; 2026 Helen Xu

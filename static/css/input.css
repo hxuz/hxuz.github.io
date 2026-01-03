@@ -182,6 +182,42 @@ a.fontStyle-footer:active {
   transition: top 0.3s ease;
 }
 
+#info-img {
+  display: none;
+  /*opacity: 0%;*/
+  transition: 0.3s ease;
+}
+
+#ml-img {
+  display: none;
+  /*opacity: 0%;*/
+  transition: 0.3s ease;
+}
+
+#twig-img {
+  display: none;
+  /*opacity: 0%;*/
+  transition: 0.3s ease;
+}
+
+#crochet-img {
+  display: none;
+  /*opacity: 0%;*/
+  transition: 0.3s ease;
+}
+
+#make-img {
+  display: none;
+  /*opacity: 0%;*/
+  transition: 0.3s ease;
+}
+
+#film-img {
+  display: none;
+  /*opacity: 0%;*/
+  transition: 0.3s ease;
+}
+
 @theme {
   --color-*: initial;
   --color-bunker-90: oklch(22.28% 0.0079 274.57);

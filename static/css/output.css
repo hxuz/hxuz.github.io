@@ -1053,6 +1053,9 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
   }
@@ -2344,6 +2347,11 @@
       }
     }
   }
+  .group-has-\[a\]\:block {
+    &:is(:where(.group):has(*:is(a)) *) {
+      display: block;
+    }
+  }
   .group-data-\[disabled\=true\]\:pointer-events-none {
     &:is(:where(.group)[data-disabled="true"] *) {
       pointer-events: none;
@@ -2782,6 +2790,30 @@ a.fontStyle-footer:active {
 }
 .topnav {
   transition: top 0.3s ease;
+}
+#info-img {
+  display: none;
+  transition: 0.3s ease;
+}
+#ml-img {
+  display: none;
+  transition: 0.3s ease;
+}
+#twig-img {
+  display: none;
+  transition: 0.3s ease;
+}
+#crochet-img {
+  display: none;
+  transition: 0.3s ease;
+}
+#make-img {
+  display: none;
+  transition: 0.3s ease;
+}
+#film-img {
+  display: none;
+  transition: 0.3s ease;
 }
 @property --tw-translate-x {
   syntax: "*";
