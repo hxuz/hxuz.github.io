@@ -21,7 +21,7 @@ body {
 
 }
 
-h1 {
+h1 { /* blue monospace text for h2 */
   margin: 0rem;
   color: var(--color-identity-primary);
   font-family: "Fragment Mono", monospace;
@@ -32,7 +32,7 @@ h1 {
   text-transform: lowercase;
 }
 
-h2 {
+h2 { /* blue monospace text for h2 */
   margin: 0rem;
   color: var(--color-identity-primary);
   font-family: "Fragment Mono", monospace;
@@ -43,7 +43,7 @@ h2 {
   text-transform: lowercase;
 }
 
-h3 {
+h3 { /* bold text for h3 */
   margin: 0rem;
   color: var(--color-text-base);
   font-size: var(--fontSize-regular);
@@ -54,6 +54,70 @@ h3 {
 
 p {
 	margin: 0rem;
+}
+
+a.fontStyle-nav:hover {
+  color: var(--color-text-base);
+  background-color: transparent;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+a.fontStyle-nav:active {
+  color: var(--color-text-base);
+  background-color: transparent;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+a.fontStyle-nav-selected:hover {
+  color: var(--color-text-faint);
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+a.fontStyle-nav-selected:active {
+  color: var(--color-text-base);
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+a.fontStyle-footer:hover {
+  color: var(--color-text-base);
+  background-color: transparent;
+  transition: 0.3s ease;
+  text-decoration: underline;
+}
+
+a.fontStyle-footer:active {
+  color: var(--color-text-base);
+  background-color: transparent;
+  transition: 0.3s ease;
+  text-decoration: underline;
+}
+
+.fontStyle-nav-icon {
+  font-size: var(--fontSize-xlarge);
+}
+
+.fontStyle-nav {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: var(--fontSize-small);
+  color: var(--color-text-subtle);
+}
+
+.fontStyle-nav-selected {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: var(--fontSize-small);
+  font-weight: 500;
+  color: var(--color-text-base);
+}
+
+.fontStyle-footer {
+  font-size: var(--fontSize-small);
+  color: var(--color-text-faint);
 }
 
 .fontStyle-desc {
@@ -71,6 +135,12 @@ p {
   font-family: "Fragment Mono", monospace;
   font-size: var(--fontSize-xsmall);
   line-height: 100%;
+}
+
+.fontStyle-list {
+  text-decoration: underline;
+  text-decoration-color: var(--color-text-faint);
+  text-underline-offset: 0.2rem;
 }
 
 .divider-gradient {
@@ -108,7 +178,9 @@ p {
   0 4px 16px 0 var(--color-shadow);
 }
 
-
+.topnav {
+  transition: top 0.3s ease;
+}
 
 @theme {
   --color-*: initial;
