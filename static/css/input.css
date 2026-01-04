@@ -18,7 +18,10 @@ body {
   font-weight: 400;
   font-size: var(--fontSize-regular);
   line-height: 125%;
+}
 
+::selection {
+  background-color: var(--color-highlight);
 }
 
 h1 { /* blue monospace text for h2 */
@@ -182,39 +185,8 @@ a.fontStyle-footer:active {
   transition: top 0.3s ease;
 }
 
-#info-img {
-  display: none;
-  /*opacity: 0%;*/
-  transition: 0.3s ease;
-}
-
-#ml-img {
-  display: none;
-  /*opacity: 0%;*/
-  transition: 0.3s ease;
-}
-
-#twig-img {
-  display: none;
-  /*opacity: 0%;*/
-  transition: 0.3s ease;
-}
-
-#crochet-img {
-  display: none;
-  /*opacity: 0%;*/
-  transition: 0.3s ease;
-}
-
-#make-img {
-  display: none;
-  /*opacity: 0%;*/
-  transition: 0.3s ease;
-}
-
-#film-img {
-  display: none;
-  /*opacity: 0%;*/
+#blah-img {
+  opacity: 0%;
   transition: 0.3s ease;
 }
 

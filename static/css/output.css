@@ -2658,6 +2658,9 @@ body {
   font-size: var(--fontSize-regular);
   line-height: 125%;
 }
+::selection {
+  background-color: var(--color-highlight);
+}
 h1 {
   margin: 0rem;
   color: var(--color-identity-primary);
@@ -2791,28 +2794,8 @@ a.fontStyle-footer:active {
 .topnav {
   transition: top 0.3s ease;
 }
-#info-img {
-  display: none;
-  transition: 0.3s ease;
-}
-#ml-img {
-  display: none;
-  transition: 0.3s ease;
-}
-#twig-img {
-  display: none;
-  transition: 0.3s ease;
-}
-#crochet-img {
-  display: none;
-  transition: 0.3s ease;
-}
-#make-img {
-  display: none;
-  transition: 0.3s ease;
-}
-#film-img {
-  display: none;
+#blah-img {
+  opacity: 0%;
   transition: 0.3s ease;
 }
 @property --tw-translate-x {

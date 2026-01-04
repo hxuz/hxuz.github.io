@@ -11,68 +11,63 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+const hoverImg = document.getElementById("blah-img");
+const blahImage = hoverImg.querySelector('img'); 
+
 const hoverInfo = document.getElementById("info");
-const hoverInfoImg = document.getElementById("info-img");
-
 const hoverMl = document.getElementById("ml");
-const hoverMlImg = document.getElementById("ml-img");
-
-// const hoverTwig = document.getElementById("twig");
-// const hoverTwigImg = document.getElementById("twig-img");
-
-// const hoverCrochet = document.getElementById("crochet");
-// const hoverCrochetImg = document.getElementById("chrochet-img");
-
-// const hoverMake = document.getElementById("make");
-// const hoverMakeImg = document.getElementById("make-img");
-
-// const hoverFilm = document.getElementById("film");
-// const hoverFilmImg = document.getElementById("film-img");
+const hoverTwig = document.getElementById("twig");
+const hoverCrochet = document.getElementById("crochet");
+const hoverMake = document.getElementById("make");
+const hoverFilm = document.getElementById("film");
 
 hoverInfo.addEventListener('mouseenter', () => {
-    // hoverInfoImg.style.opacity = 1;
-    hoverInfoImg.style.display = "block";
-    // hoverInfoImg.style.transition = "0.3 ease";
+    blahImage.src = "static/images/infographic.png";
+    hoverImg.style.opacity = 1;
 });
 hoverInfo.addEventListener('mouseleave', () => {
-    // hoverInfoImg.style.opacity = 0;
-    hoverInfoImg.style.display = "none";
+    hoverImg.style.opacity = 0;
 });
 
 hoverMl.addEventListener('mouseenter', () => {
-    hoverMlImg.style.display = "block";
+    blahImage.src = "static/images/ds-proj.png";
+    hoverImg.style.opacity = 1;
 });
 hoverMl.addEventListener('mouseleave', () => {
-    hoverMlImg.style.display = "none";
+    hoverImg.style.opacity = 0;
 });
 
-// hoverTwig.addEventListener('mouseenter', () => {
-//     hoverTwigImg.style.display = "block";
-// });
-// hoverTwig.addEventListener('mouseleave', () => {
-//     hoverTwigImg.style.display = "none";
-// });
+hoverTwig.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/twig.jpeg";
+    hoverImg.style.opacity = 1;
+});
+hoverTwig.addEventListener('mouseleave', () => {
+    hoverImg.style.opacity = 0;
+});
 
-// hoverCrochet.addEventListener('mouseenter', () => {
-//     hoverCrochetImg.style.display = "block";
-// });
-// hoverCrochet.addEventListener('mouseleave', () => {
-//     hoverCrochetImg.style.display = "none";
-// });
+hoverCrochet.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/crochet.png";
+    hoverImg.style.opacity = 1;
+});
+hoverCrochet.addEventListener('mouseleave', () => {
+    hoverImg.style.opacity = 0;
+});
 
-// hoverMake.addEventListener('mouseenter', () => {
-//     hoverMakeImg.style.display = "block";
-// });
-// hoverMake.addEventListener('mouseleave', () => {
-//     hoverMakeImg.style.display = "none";
-// });
+hoverMake.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/making.png";
+    hoverImg.style.opacity = 1;
+});
+hoverMake.addEventListener('mouseleave', () => {
+    hoverImg.style.opacity = 0;
+});
 
-// hoverFilm.addEventListener('mouseenter', () => {
-//     hoverFilm Img.style.display = "block";
-// });
-// hoverFilm.addEventListener('mouseleave', () => {
-//     hoverFilmImg.style.display = "none";
-// });
+hoverFilm.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/placeholder.svg";
+    hoverImg.style.opacity = 1;
+});
+hoverFilm.addEventListener('mouseleave', () => {
+    hoverImg.style.opacity = 0;
+});
 
 
 // /* Show and hide popup window */

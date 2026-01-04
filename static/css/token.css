@@ -87,6 +87,7 @@
   /* opacity */
   --color-opacity-base: light-dark(var(--persian-blue-opacity-5), var(--wisteria-blue-opacity-15));
   --color-opacity-state1: light-dark(var(--persian-blue-opacity-15), var(--wisteria-blue-opacity-33));
+  --color-highlight: light-dark(var(--wisteria-blue-opacity-33), var(--persian-blue-opacity-33));
 
   /* shadow */
   --color-shadow: light-dark(var(--shadow-opacity-light), var(--shadow-opacity-dark));
