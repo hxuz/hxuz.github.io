@@ -15,7 +15,6 @@ body {
   -moz-font-feature-settings: "ss03" 1;
   font-feature-settings: "ss03" 1;
   font-style: normal;
-  font-weight: 400;
   font-size: var(--fontSize-regular);
   line-height: 125%;
 }
@@ -200,6 +199,11 @@ a.fontStyle-footer:active {
   background: linear-gradient(to bottom, transparent, var(--color-opacity-base));
   border-radius: var(--radius-large, 1.5rem);
   transition: 0.3s ease;
+}
+
+.project-cover-img {
+  width: 100vw;
+  height: auto;
 }
 
 @theme {

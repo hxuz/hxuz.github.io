@@ -550,8 +550,14 @@
   .field-sizing-fixed {
     field-sizing: fixed;
   }
+  .aspect-3\/2 {
+    aspect-ratio: 3/2;
+  }
   .aspect-square {
     aspect-ratio: 1 / 1;
+  }
+  .aspect-video {
+    aspect-ratio: var(--aspect-video);
   }
   .size-3\.5 {
     width: calc(var(--spacing) * 3.5);
@@ -724,6 +730,9 @@
   .grow {
     flex-grow: 1;
   }
+  .basis-1\/3 {
+    flex-basis: calc(1/3 * 100%);
+  }
   .basis-25 {
     flex-basis: calc(var(--spacing) * 25);
   }
@@ -893,6 +902,9 @@
   }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
   .grid-rows-\[auto_auto\] {
     grid-template-rows: auto auto;
@@ -1750,6 +1762,9 @@
   .py-\[0\.2rem\] {
     padding-block: 0.2rem;
   }
+  .pt-0\.5 {
+    padding-top: calc(var(--spacing) * 0.5);
+  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
@@ -1758,6 +1773,9 @@
   }
   .pr-8 {
     padding-right: calc(var(--spacing) * 8);
+  }
+  .pb-1 {
+    padding-bottom: calc(var(--spacing) * 1);
   }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
@@ -2045,6 +2063,9 @@
   .underline {
     text-decoration-line: underline;
   }
+  .decoration-\[var\(--color-text-faint\)\] {
+    text-decoration-color: var(--color-text-faint);
+  }
   .decoration-dashed {
     text-decoration-style: dashed;
   }
@@ -2065,6 +2086,9 @@
   }
   .decoration-from-font {
     text-decoration-thickness: from-font;
+  }
+  .underline-offset-2 {
+    text-underline-offset: 2px;
   }
   .underline-offset-4 {
     text-underline-offset: 4px;
@@ -2629,6 +2653,16 @@
       grid-column: span 2 / span 2;
     }
   }
+  .md\:col-span-3 {
+    @media (width >= 48rem) {
+      grid-column: span 3 / span 3;
+    }
+  }
+  .md\:col-span-4 {
+    @media (width >= 48rem) {
+      grid-column: span 4 / span 4;
+    }
+  }
   .md\:block {
     @media (width >= 48rem) {
       display: block;
@@ -2720,7 +2754,6 @@ body {
   -moz-font-feature-settings: "ss03" 1;
   font-feature-settings: "ss03" 1;
   font-style: normal;
-  font-weight: 400;
   font-size: var(--fontSize-regular);
   line-height: 125%;
 }
@@ -2873,6 +2906,10 @@ a.fontStyle-footer:active {
   background: linear-gradient(to bottom, transparent, var(--color-opacity-base));
   border-radius: var(--radius-large, 1.5rem);
   transition: 0.3s ease;
+}
+.project-cover-img {
+  width: 100vw;
+  height: auto;
 }
 @property --tw-translate-x {
   syntax: "*";
