@@ -16,7 +16,7 @@ body {
   font-feature-settings: "ss03" 1;
   font-style: normal;
   font-size: var(--fontSize-regular);
-  line-height: 125%;
+  line-height: 135%;
 }
 
 ::selection {
@@ -51,7 +51,7 @@ h3 { /* bold text for h3 */
   font-size: var(--fontSize-regular);
   font-style: normal;
   font-weight: 500;
-  line-height: 125%;
+  line-height: 135%;
 }
 
 p {
@@ -117,6 +117,21 @@ a.fontStyle-footer:active {
   color: var(--color-text-base);
 }
 
+.fontStyle-daily {
+  color: var(--color-text-subtle);
+  font-family: "Plantin MT Pro", serif;
+  font-size: 4rem;
+  line-height: normal;
+  font-variant: small-caps;
+}
+
+.fontStyle-subhead {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: var(--fontSize-small);
+  color: var(--color-identity-on-muted);
+}
+
 .fontStyle-footer {
   font-size: var(--fontSize-small);
   color: var(--color-text-faint);
@@ -143,6 +158,30 @@ a.fontStyle-footer:active {
   text-decoration: underline;
   text-decoration-color: var(--color-text-faint);
   text-underline-offset: 0.2rem;
+}
+
+.fontStyle-newsheader {
+  color: var(--color-identity-primary);
+  font-family: "Plantin MT Pro", serif;
+  font-size: 2.25rem;
+  line-height: 115%;
+  font-weight: 400;
+}
+
+.fontStyle-overline {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: var(--fontSize-small);
+  color: var(--color-text-subtle);
+  font-weight: 500;
+}
+
+.fontStyle-newsh2 {
+  color: var(--color-identity-primary);
+  font-family: "Plantin MT Pro", serif;
+  font-size: var(--fontSize-large);
+  line-height: normal;
+  font-weight: 400;
 }
 
 .fontStyle-badge {

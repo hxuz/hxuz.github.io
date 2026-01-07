@@ -1,18 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
 @import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.cdnfonts.com/css/plantin-mt-pro');
 
 /*@font-face {
-    font-family: "Fragment Mono";
+    font-family: "Plantin MT Pro", serif;
     font-style: normal;
     font-weight: normal;
-    src: local('Fragment Mono'), 
-    url("../fonts/Fragment Mono/fragment-mono-normal.woff2") format("woff2");
+    src: local('Plantin MT Pro'), 
+    url("../fonts/PlantinMTPro/PlantinMTPro-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Fragment Mono";
+    font-family: "Plantin MT Pro", serif;
     font-style: italic;
     font-weight: normal;
-    src: local('Fragment Mono'), 
-    url("../fonts/Fragment Mono/fragment-mono-italic.woff2") format("woff2");
+    src: local('Plantin MT Pro'), 
+    url("../fonts/PlantinMTPro/PlantinMTPro-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Plantin MT Pro", serif;
+    font-style: normal;
+    font-weight: 600;
+    src: local('Plantin MT Pro'), 
+    url("../fonts/PlantinMTPro/PlantinMTPro-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Plantin MT Pro", serif;
+    font-style: italic;
+    font-weight: 600;
+    src: local('Plantin MT Pro'), 
+    url("../fonts/PlantinMTPro/PlantinMTPro-SemiBdIt.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Plantin MT Pro", serif;
+    font-style: normal;
+    font-weight: bold;
+    src: local('Plantin MT Pro'), 
+    url("../fonts/PlantinMTPro/PlantinMTPro-Bold.woff2") format("woff2");
 }*/

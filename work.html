@@ -27,7 +27,7 @@
   <body>
 
     <!-- navbar -->
-    <div id="nav-bar" class="fixed top-0 topnav w-full flex p-8">
+    <!-- <div id="nav-bar" class="fixed top-0 topnav w-full flex p-8">
       <div class="grow">
         <a class="fontStyle-nav-icon text-left" href="index-new.html">&#128126;</a>
       </div>
@@ -36,47 +36,67 @@
         <a class="fontStyle-nav pr-4" href="blah.html">blah</a>
         <a class="fontStyle-nav pr-4" href="me.html">me</a>
       </div>
-    </div>
+    </div> -->
 
-    <!-- intro -->
-    <div class="max-w-288 mx-auto mt-36 mb-20 grid grid-cols-2 gap-5">
-      <div class="col-span-full md:col-span-1 content-start mx-4 xl:m-0">
-        <h2 class="pb-3">Hi, I’m Helen.</h2>
-        <h2 class="pb-3">I craft delightful and impactful experiences for digital products.</h2>
+    <!-- header -->
+    <div class="max-w-288 mx-auto mt-12 xl:mt-24 mb-16 grid grid-cols-6 gap-2">
+      <div class="col-span-full md:col-span-3 w-full mx-4 xl:m-0">
+        <a class="fontStyle-nav pr-4" href="index-new.html">home</a>
+        <a class="fontStyle-nav-selected pr-4" href="work.html">work</a>
+        <a class="fontStyle-nav pr-4" href="blah.html">margins</a>
+        <a class="fontStyle-nav pr-4" href="me.html">byline</a>
+      </div>
+      <div class="hidden md:block col-span-full md:col-span-3 w-full">
+        <p class="fontStyle-nav text-right">tuesday, january 6, 2026</p>
       </div>
 
-      <div class="col-span-full md:col-span-1 content-start mx-4 xl:m-0">
-        <p class="pb-2">Currently, I’m designing elevated shopping experiences for Amazon Luxury and GenAI try-on for fashion & beauty.</p>
-        <p class="pb-2">Previously, I worked in the realm of growth design at Dropbox.</p>
-        <p class="pb-5">My design expertise spans from immersive visual and interactive experiences, to designing for emerging technologies, and expanding business impact through data-driven design.</p>
+      <div class="col-span-full w-full h-fit border-t-2 border-[var(--color-identity-on-muted)] mb-8">
+        <p class="pt-2 h-20 fontStyle-daily text-center">The Daily</p>
+        <div class="py-1 flex w-full border-y border-[var(--color-identity-on-muted)] justify-center">
+          <p class="fontStyle-subhead">Product design work & thoughts</p>
+        </div>
+      </div>
+
+
+      <div class="col-span-full md:col-span-4 content-start mx-4 mb-8 xl:ml-0 xl:mr-3 xl:mb-0">
+        <p class="fontStyle-overline pb-2">Featured</p>
+        <p class="fontStyle-newsheader pb-4">Helen Xu: full-stack product designer crafting delightful visual and interactive experiences</p>
+
+        <!-- links -->
 
         <div class="w-full flex flex-row pb-2">
           <p class="basis-full fontStyle-desc">name</p>
           <p class="basis-25 fontStyle-desc">version &#8595;</p>
         </div>
 
-        <div class="w-full flex flex-row py-5 divider-gradient-last hover:bg-[var(--color-opacity-base)]">
+        <div class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)]">
           <div class="group basis-full flex items-center gap-1">
             <a class="fontStyle-list cursor-not-allowed" href="#" onclick="return false;">Resume.pdf</a>
             <svg class="hidden group-has-[a]:block" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.40426 11.8891C3.209 12.0844 3.209 12.401 3.40426 12.5962C3.59952 12.7915 3.9161 12.7915 4.11137 12.5962L3.75781 12.2427L3.40426 11.8891ZM12.7431 3.75739C12.7431 3.48125 12.5192 3.25739 12.2431 3.25739L7.74309 3.25739C7.46695 3.25739 7.24309 3.48125 7.24309 3.75739C7.24309 4.03354 7.46695 4.25739 7.74309 4.25739L11.7431 4.25739L11.7431 8.25739C11.7431 8.53354 11.967 8.75739 12.2431 8.75739C12.5192 8.75739 12.7431 8.53354 12.7431 8.25739L12.7431 3.75739ZM3.75781 12.2427L4.11137 12.5962L12.5966 4.11095L12.2431 3.75739L11.8895 3.40384L3.40426 11.8891L3.75781 12.2427Z" fill="var(--color-text-base)"/></svg>
           </div>
           <p class="basis-25 content-center fontStyle-desc">01 / 2026</p>
         </div>
-        <!-- <div class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)]">
+        <div class="w-full flex flex-row pt-5 pb-5 divider-gradient-last hover:bg-[var(--color-opacity-base)]">
           <div class="group basis-full flex items-center gap-1">
-            <a class="fontStyle-list cursor-not-allowed" href="#" onclick="return false;">About me.html</a>
+            <a class="fontStyle-list cursor-not-allowed" href="#" onclick="return false;">The Spread.html</a>
             <svg class="hidden group-has-[a]:block" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.40426 11.8891C3.209 12.0844 3.209 12.401 3.40426 12.5962C3.59952 12.7915 3.9161 12.7915 4.11137 12.5962L3.75781 12.2427L3.40426 11.8891ZM12.7431 3.75739C12.7431 3.48125 12.5192 3.25739 12.2431 3.25739L7.74309 3.25739C7.46695 3.25739 7.24309 3.48125 7.24309 3.75739C7.24309 4.03354 7.46695 4.25739 7.74309 4.25739L11.7431 4.25739L11.7431 8.25739C11.7431 8.53354 11.967 8.75739 12.2431 8.75739C12.5192 8.75739 12.7431 8.53354 12.7431 8.25739L12.7431 3.75739ZM3.75781 12.2427L4.11137 12.5962L12.5966 4.11095L12.2431 3.75739L11.8895 3.40384L3.40426 11.8891L3.75781 12.2427Z" fill="var(--color-text-base)"/></svg>
           </div>
-          <p class="basis-25 content-center fontStyle-desc">04 / 2025</p>
-        </div> -->
+          <p class="basis-25 content-center fontStyle-desc">01 / 2026</p>
+        </div>
+      </div>
+
+      <div class="col-span-full md:col-span-2 content-start mx-4 xl:ml-3 xl:mr-0">
+        <p class="fontStyle-overline pb-3">Editor's note</p>
+        <p class="pb-2">Helen’s design expertise spans from immersive visual and interactive experiences, to designing for emerging technologies, and expanding business impact through data-driven design.</p>
+        <p class="pb-5">Currently, Helen is designing elevated shopping experience for Amazon Luxury and GenAI try-on for fashion & beauty. Previously, she worked on growth design at Dropbox.</p>
       </div>
     </div>
 
     <!-- project 1 pic -->
-    <div class="project max-w-288 mx-4 xl:mx-auto mb-20">
+    <div class="project max-w-288 mx-4 xl:mx-auto mb-16">
       <!-- image 1 -->
       <div class="pb-5">
-        <div class="relative image-frame-nocap w-full h-144 group">
+        <div class="relative image-frame-nocap w-full aspect-square xl:aspect-video group">
           <img class="rounded-2xl w-full h-full object-cover" src="static/images/placeholder.svg"></img>
           <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">caption</p></div> -->
         </div>
@@ -84,109 +104,84 @@
 
       <!-- project intro -->
       <div class="col-span-full px-4 pb-5">
-        <div class="flex flex-row flex-wrap content-center gap-2 pb-2">
-          <p class="font-medium text-[var(--color-identity-primary)]">Glamroom AI — makeup try-on and beyond</p>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Gen-AI try-on</span>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">LLM chat</span>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Mobile</span>
-        </div>
-        <p class="text-[var(--color-text-subtle)]">Makeup inspiration, AI try-on, customization, and shopping, all in one place</p>
+        <p class="fontStyle-overline pb-2">Gen-AI try-on & LLM chat</p>
+        <p class="fontStyle-newsh2">Glamroom AI — makeup try-on and beyond</p>
+        <!-- <p class="text-[var(--color-text-subtle)]">Makeup inspiration, AI try-on, customization, and shopping, all in one place</p> -->
       </div>
     </div>
 
-    <!-- 2 project row -->
-    <div class="max-w-288 mx-4 xl:mx-auto mb-20 grid grid-cols-2 gap-5">
+    <!-- 2 projects md+sm -->
+    <div class="max-w-288 mx-4 xl:mx-auto mb-16 grid grid-cols-6 gap-5">
 
       <!-- project left -->
-      <div class="project col-span-full md:col-span-1">
+      <div class="project col-span-full md:col-span-4">
 
         <!-- project 1 image -->
-        <div class="relative image-frame-nocap w-full aspect-square mb-5 group">
+        <div class="relative image-frame-nocap w-full aspect-square xl:aspect-64/39 mb-5 group">
           <img class="rounded-2xl w-full h-full object-cover" src="static/images/placeholder.svg"></img>
           <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">caption</p></div> -->
         </div>
 
         <!-- project 1 intro -->
         <div class="col-span-full px-4">
-          <p class="font-medium text-[var(--color-identity-primary)] pb-2">Amazon Luxury rebrand & redesign</p>
-          <div class="flex flex-row flex-wrap content-center gap-2 pb-5">
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Design system</span>
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Branding</span>
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Desktop & mobile</span>
-          </div>
+          <p class="fontStyle-overline pb-2">User acquisition</p>
+          <p class="fontStyle-newsh2 pb-5">Dropbox AI universal search preview</p>
         </div>
+
       </div>
       
-      <!-- project right -->
-      <div class="project col-span-full md:col-span-1">
+      <!-- projects right -->
+      <div class="project col-span-full md:col-span-2">
 
         <!-- project 2 image -->
-        <div class="relative image-frame-nocap w-full aspect-square mb-5 group">
+        <div class="relative image-frame-nocap w-full aspect-square xl:aspect-4/5 mb-5 group">
           <img class="rounded-2xl w-full h-full object-cover" src="static/images/placeholder.svg"></img>
           <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">caption</p></div> -->
         </div>
 
         <!-- project 2 intro -->
         <div class="col-span-full px-4">
-          <p class="font-medium text-[var(--color-identity-primary)] pb-2">Dropbox AI universal search preview</p>
-          <div class="flex flex-row flex-wrap content-center gap-2 pb-5">
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">User acquisition</span>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Mobile</span>
-          </div>
+          <p class="fontStyle-overline pb-2">Design systen & branding</p>
+          <p class="fontStyle-newsh2 pb-5">Amazon Luxury redesign</p>
         </div>
+
       </div>     
     </div>
 
-    <!-- project 2 pics sm+md -->
-    <div class="project max-w-288 mx-4 xl:mx-auto mb-20 grid grid-cols-3 gap-5">
+    <!-- project 1 pic -->
+    <div class="project max-w-288 mx-4 xl:mx-auto mb-16">
       <!-- image 1 -->
-      <div class="col-span-full md:col-span-1">
-        <div class="relative image-frame-nocap w-full h-144 group">
+      <div class="pb-5">
+        <div class="relative image-frame-nocap w-full aspect-square xl:aspect-video group">
           <img class="rounded-2xl w-full h-full object-cover" src="static/images/placeholder.svg"></img>
           <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">caption</p></div> -->
-        </div>
-      </div>
-      
-      <!-- image 2 -->
-      <div class="col-span-full md:col-span-2">
-        <div class="relative image-frame-nocap w-full h-144 group">
-          <img class="rounded-2xl h-full w-full object-cover" src="static/images/placeholder.svg"></img>
-          <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">v</p></div> -->
         </div>
       </div>
 
       <!-- project intro -->
       <div class="col-span-full px-4 pb-5">
-        <div class="flex flex-row flex-wrap content-center gap-2 pb-2">
-          <p class="font-medium text-[var(--color-identity-primary)]">Personalized products upsell</p>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Monetization</span>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Design system</span>
-          <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Desktop & mobile</span>
-        </div>
-        <p class="text-[var(--color-text-subtle)]">Personalized product exploration experience with add-ons for logged-in users</p>
+        <p class="fontStyle-overline pb-2">Monetization</p>
+        <p class="fontStyle-newsh2">Personalized products upsell</p>
+        <!-- <p class="text-[var(--color-text-subtle)]">Personalized product exploration experience with add-ons for logged-in users</p> -->
       </div>
     </div>
 
     <!-- 2 project row -->
-    <div class="max-w-288 mx-4 xl:mx-auto mb-20 grid grid-cols-2 gap-5">
+    <div class="max-w-288 mx-4 xl:mx-auto mb-16 grid grid-cols-2 gap-5">
 
       <!-- project left -->
       <div class="project col-span-full md:col-span-1">
 
         <!-- project 1 image -->
-        <div class="relative image-frame-nocap w-full aspect-square mb-5 group">
+        <div class="relative image-frame-nocap w-full aspect-square xl:aspect-square mb-5 group">
           <img class="rounded-2xl w-full h-full object-cover" src="static/images/placeholder.svg"></img>
           <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">caption</p></div> -->
         </div>
 
         <!-- project 1 intro -->
         <div class="col-span-full px-4">
-          <p class="font-medium text-[var(--color-identity-primary)] pb-2">Save and subscribe at Dropbox checkout</p>
-          <div class="flex flex-row flex-wrap content-center gap-2 pb-5">
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Monetization</span>
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Design system</span>
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Desktop & mobile</span>
-          </div>
+          <p class="fontStyle-overline pb-2">Monetization</p>
+          <p class="fontStyle-newsh2 pb-5">Save and subscribe at Dropbox checkout</p>
         </div>
       </div>
       
@@ -194,29 +189,25 @@
       <div class="project col-span-full md:col-span-1">
 
         <!-- project 2 image -->
-        <div class="relative image-frame-nocap w-full aspect-square mb-5 group">
+        <div class="relative image-frame-nocap w-full aspect-square xl:aspect-square mb-5 group">
           <img class="rounded-2xl w-full h-full object-cover" src="static/images/placeholder.svg"></img>
           <!-- <div class="opacity-0 absolute bottom-0.5 inset-x-0 group-hover:opacity-100 transition-opacity duration-300"><p class="fontStyle-caption">caption</p></div> -->
         </div>
 
         <!-- project 2 intro -->
         <div class="col-span-full px-4">
-          <p class="font-medium text-[var(--color-identity-primary)] pb-2">Visual identity for The Vera Project</p>
-          <div class="flex flex-row flex-wrap content-center gap-2 pb-5">
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Visual design</span>
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Branding</span>
-            <span class="inline-flex items-center rounded-sm px-1.5 fontStyle-badge">Desktop & mobile</span>
-          </div>
+          <p class="fontStyle-overline pb-2">Visual design & branding</p>
+          <p class="fontStyle-newsh2 pb-5">Redesigning The Vera Project</p>
         </div>
       </div>     
     </div>
 
     <!-- menu -->
-    <div class="max-w-288 mx-4 xl:mx-auto mb-20">
+    <div class="max-w-288 mx-4 xl:mx-auto mb-16">
 
-      <h2 class="pb-4">At a glance</h2>
+      <p class="fontStyle-newsh2 pb-4">At a glance</p>
 
-      <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
+      <a class="w-full flex flex-row gap-2 py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
         <div class="basis-full">
           <p class="font-medium text-base pb-1">Glamroom AI — makeup try-on and beyond</p>
           <p class="fontStyle-desc">Makeup inspiration, AI try-on, customization, and shopping, all in one place</p>
@@ -224,51 +215,51 @@
         <p class="basis-1/3 content-center text-right fontStyle-desc">LLM chat & Gen-AI try-on</p>
       </a>
 
-      <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
+      <!-- <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
         <div class="basis-full">
           <p class="font-medium text-base pb-1">Amazon Luxury rebrand & redesign</p>
           <p class="fontStyle-desc">Full site flip with an elevated look and feel</p>
         </div>
         <p class="basis-1/3 content-center text-right fontStyle-desc">Design system & Branding</p>
-      </a>
+      </a> -->
 
-      <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
+      <a class="w-full flex flex-row gap-2 py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
         <div class="basis-full">
           <p class="font-medium text-base pb-1">Dropbox AI universal search preview</p>
           <p class="fontStyle-desc">Dropbox Dash user acquisition through limited feature preview</p>
         </div>
-        <p class="basis-1/3 content-center text-right fontStyle-desc">Growth design / Acquisition</p>
+        <p class="basis-1/3 content-center text-right fontStyle-desc">Acquisition</p>
       </a>
 
-      <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
+      <a class="w-full flex flex-row gap-2 py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
         <div class="basis-full">
           <p class="font-medium text-base pb-1">Personalized products upsell</p>
           <p class="fontStyle-desc">Personalized product exploration experience with add-ons for logged-in users</p>
         </div>
-        <p class="basis-1/3 content-center text-right fontStyle-desc">Growth design / Monetization</p>
+        <p class="basis-1/3 content-center text-right fontStyle-desc">Monetization</p>
       </a>
 
-      <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
+      <a class="w-full flex flex-row gap-2 py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
         <div class="basis-full">
-          <p class="font-medium text-base pb-1">Save and subscribe at Dropbox checkout</p>
-          <p class="fontStyle-desc">Leveling up checkout experience and rectifying dark pattern</p>
+          <p class="font-medium text-base pb-1">Save and subscribe at checkout</p>
+          <p class="fontStyle-desc">Leveling up Dropbox's checkout experience and rectifying dark pattern</p>
         </div>
-        <p class="basis-1/3 content-center text-right fontStyle-desc">Growth design / Monetization</p>
+        <p class="basis-1/3 content-center text-right fontStyle-desc">Monetization</p>
       </a>
 
-      <a class="w-full flex flex-row py-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
+      <a class="w-full flex flex-row gap-2 py-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
         <div class="basis-full">
-          <p class="font-medium text-base pb-1">Visual identity for The Vera Project</p>
+          <p class="font-medium text-base pb-1">Rebranding The Vera Project</p>
           <p class="fontStyle-desc">Redesigning visual identity for Seattle's music and art creative community</p>
         </div>
-        <p class="basis-1/3 content-center text-right fontStyle-desc">Visual design / Branding</p>
+        <p class="basis-1/3 content-center text-right fontStyle-desc">Visual design & Branding</p>
       </a>
     </div>
 
     <!-- footer -->
     <div class="w-full flex xs:flex-wrap p-8">
       <div class="grow fontStyle-footer">
-        Designed & built in Seattle &copy; 2026 Helen Xu
+        &copy; Helen Xu 2026
       </div>
       <div class="flex-none min-w-fit">
         <a class="fontStyle-footer pr-4" href="mailto: helenxuzh@gmail.com" target="_blank">Email</a>
