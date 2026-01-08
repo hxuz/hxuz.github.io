@@ -457,9 +457,6 @@
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
-  .mt-24 {
-    margin-top: calc(var(--spacing) * 24);
-  }
   .mt-36 {
     margin-top: calc(var(--spacing) * 36);
   }
@@ -559,41 +556,8 @@
   .field-sizing-fixed {
     field-sizing: fixed;
   }
-  .aspect-2\/1 {
-    aspect-ratio: 2/1;
-  }
   .aspect-3\/2 {
     aspect-ratio: 3/2;
-  }
-  .aspect-3\/4 {
-    aspect-ratio: 3/4;
-  }
-  .aspect-4\/3 {
-    aspect-ratio: 4/3;
-  }
-  .aspect-4\/5 {
-    aspect-ratio: 4/5;
-  }
-  .aspect-8\/5 {
-    aspect-ratio: 8/5;
-  }
-  .aspect-9\/5 {
-    aspect-ratio: 9/5;
-  }
-  .aspect-16\/9 {
-    aspect-ratio: 16/9;
-  }
-  .aspect-16\/10 {
-    aspect-ratio: 16/10;
-  }
-  .aspect-32\/19 {
-    aspect-ratio: 32/19;
-  }
-  .aspect-32\/20 {
-    aspect-ratio: 32/20;
-  }
-  .aspect-64\/39 {
-    aspect-ratio: 64/39;
   }
   .aspect-square {
     aspect-ratio: 1 / 1;
@@ -1420,8 +1384,8 @@
   .border-\[\#fbf0df\] {
     border-color: #fbf0df;
   }
-  .border-\[var\(--color-identity-on-muted\)\] {
-    border-color: var(--color-identity-on-muted);
+  .border-\[var\(--color-text-subtle\)\] {
+    border-color: var(--color-text-subtle);
   }
   .bg-\[\#1a1a1a\] {
     background-color: #1a1a1a;
@@ -1823,6 +1787,9 @@
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
+  .pr-2 {
+    padding-right: calc(var(--spacing) * 2);
+  }
   .pr-4 {
     padding-right: calc(var(--spacing) * 4);
   }
@@ -1870,9 +1837,6 @@
   }
   .text-start {
     text-align: start;
-  }
-  .indent-8 {
-    text-indent: calc(var(--spacing) * 8);
   }
   .align-baseline {
     vertical-align: baseline;
@@ -2894,17 +2858,33 @@ h3 {
 p {
   margin: 0rem;
 }
+a.fontStyle-link:hover {
+  color: var(--color-text-base);
+  text-decoration: underline;
+  text-decoration-color: var(--color-text-faint);
+  text-underline-offset: 0.2rem;
+}
+a.fontStyle-link:active {
+  color: var(--color-text-base);
+  text-decoration: underline;
+  text-decoration-color: var(--color-text-faint);
+  text-underline-offset: 0.2rem;
+}
 a.fontStyle-nav:hover {
   color: var(--color-text-base);
   background-color: transparent;
   transition: 0.3s ease;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 a.fontStyle-nav:active {
   color: var(--color-text-base);
   background-color: transparent;
   transition: 0.3s ease;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 a.fontStyle-nav-selected:hover {
   color: var(--color-text-faint);
@@ -2921,12 +2901,17 @@ a.fontStyle-footer:hover {
   background-color: transparent;
   transition: 0.3s ease;
   text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 a.fontStyle-footer:active {
   color: var(--color-text-base);
   background-color: transparent;
   transition: 0.3s ease;
   text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+.fontStyle-link {
+  color: var(--color-text-subtle);
 }
 .fontStyle-nav-icon {
   font-size: var(--fontSize-xlarge);
@@ -2955,7 +2940,7 @@ a.fontStyle-footer:active {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: var(--fontSize-small);
-  color: var(--color-identity-on-muted);
+  color: var(--color-text-subtle);
 }
 .fontStyle-footer {
   font-size: var(--fontSize-small);
@@ -2977,6 +2962,7 @@ a.fontStyle-footer:active {
   line-height: 100%;
 }
 .fontStyle-list {
+  color: var(--color-text-base);
   text-decoration: underline;
   text-decoration-color: var(--color-text-faint);
   text-underline-offset: 0.2rem;

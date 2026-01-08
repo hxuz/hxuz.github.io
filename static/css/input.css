@@ -58,11 +58,27 @@ p {
 	margin: 0rem;
 }
 
+a.fontStyle-link:hover {
+  color: var(--color-text-base);
+  text-decoration: underline;
+  text-decoration-color: var(--color-text-faint);
+  text-underline-offset: 0.2rem;
+}
+
+a.fontStyle-link:active {
+  color: var(--color-text-base);
+  text-decoration: underline;
+  text-decoration-color: var(--color-text-faint);
+  text-underline-offset: 0.2rem;
+}
+
 a.fontStyle-nav:hover {
   color: var(--color-text-base);
   background-color: transparent;
   transition: 0.3s ease;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 
 a.fontStyle-nav:active {
@@ -70,6 +86,8 @@ a.fontStyle-nav:active {
   background-color: transparent;
   transition: 0.3s ease;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 
 a.fontStyle-nav-selected:hover {
@@ -89,6 +107,7 @@ a.fontStyle-footer:hover {
   background-color: transparent;
   transition: 0.3s ease;
   text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 
 a.fontStyle-footer:active {
@@ -96,6 +115,11 @@ a.fontStyle-footer:active {
   background-color: transparent;
   transition: 0.3s ease;
   text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.fontStyle-link {
+  color: var(--color-text-subtle);
 }
 
 .fontStyle-nav-icon {
@@ -129,7 +153,7 @@ a.fontStyle-footer:active {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: var(--fontSize-small);
-  color: var(--color-identity-on-muted);
+  color: var(--color-text-subtle);
 }
 
 .fontStyle-footer {
@@ -155,6 +179,7 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-list {
+  color: var(--color-text-base);
   text-decoration: underline;
   text-decoration-color: var(--color-text-faint);
   text-underline-offset: 0.2rem;
