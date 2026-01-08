@@ -260,7 +260,8 @@ a.fontStyle-footer:active {
 }
 
 .project:hover {
-  background: linear-gradient(to bottom, transparent, var(--color-opacity-base));
+  /*background: linear-gradient(to bottom, transparent, var(--color-opacity-base));*/
+  background-color: var(--color-opacity-base);
   border-radius: var(--radius-large, 1.5rem);
   transition: 0.3s ease;
 }
