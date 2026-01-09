@@ -23,6 +23,16 @@ body {
   background-color: var(--color-highlight);
 }
 
+@keyframes fadeInUp {
+    0% { transform: translateY(1rem); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.fade-in-load {
+    animation: 0.3s fadeInUp ease-out forwards; /* Apply animation on body load */
+    opacity: 0; /* Initial state before animation starts */
+}
+
 h1 { /* blue monospace text for h2 */
   margin: 0rem;
   color: var(--color-identity-primary);

@@ -11,39 +11,44 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+const dateElement = document.getElementById("date");
+const currentDate = new Date();
+const formattedDate = currentDate.toLocaleDateString(undefined, {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+});
+
+dateElement.textContent = formattedDate;
+// document.getElementById("date").textContent = new Date().getFullYear();
+
 const hoverImg = document.getElementById("blah-img");
 const blahImage = hoverImg.querySelector('img'); 
 
-const hoverInfo = document.getElementById("info");
-const hoverMl = document.getElementById("ml");
-const hoverTwig = document.getElementById("twig");
+const hoverFilm = document.getElementById("film");
+// const hoverTwig = document.getElementById("twig");
 const hoverCrochet = document.getElementById("crochet");
 const hoverMake = document.getElementById("make");
-const hoverFilm = document.getElementById("film");
+const hoverInfo = document.getElementById("info");
+const hoverMl = document.getElementById("ml");
+const hoverDailycal = document.getElementById("dailycal");
 
-hoverInfo.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/infographic.png";
+hoverFilm.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/placeholder.svg";
     hoverImg.style.opacity = 1;
 });
-hoverInfo.addEventListener('mouseleave', () => {
+hoverFilm.addEventListener('mouseleave', () => {
     hoverImg.style.opacity = 0;
 });
 
-hoverMl.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/ds-proj.png";
-    hoverImg.style.opacity = 1;
-});
-hoverMl.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
-
-hoverTwig.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/twig.jpeg";
-    hoverImg.style.opacity = 1;
-});
-hoverTwig.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+// hoverTwig.addEventListener('mouseenter', () => {
+//     blahImage.src = "static/images/twig.jpeg";
+//     hoverImg.style.opacity = 1;
+// });
+// hoverTwig.addEventListener('mouseleave', () => {
+//     hoverImg.style.opacity = 0;
+// });
 
 hoverCrochet.addEventListener('mouseenter', () => {
     blahImage.src = "static/images/crochet.png";
@@ -61,14 +66,29 @@ hoverMake.addEventListener('mouseleave', () => {
     hoverImg.style.opacity = 0;
 });
 
-hoverFilm.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/placeholder.svg";
+hoverInfo.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/infographic.png";
     hoverImg.style.opacity = 1;
 });
-hoverFilm.addEventListener('mouseleave', () => {
+hoverInfo.addEventListener('mouseleave', () => {
     hoverImg.style.opacity = 0;
 });
 
+hoverMl.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/ds-proj.png";
+    hoverImg.style.opacity = 1;
+});
+hoverMl.addEventListener('mouseleave', () => {
+    hoverImg.style.opacity = 0;
+});
+
+hoverDailycal.addEventListener('mouseenter', () => {
+    blahImage.src = "static/images/placeholder.svg";
+    hoverImg.style.opacity = 1;
+});
+hoverDailycal.addEventListener('mouseleave', () => {
+    hoverImg.style.opacity = 0;
+});
 
 // /* Show and hide popup window */
 // window.onload = function() {
