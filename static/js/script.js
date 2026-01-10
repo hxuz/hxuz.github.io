@@ -11,6 +11,8 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 }
 
+
+
 // display current date
 const dateElement = document.getElementById("date");
 
@@ -26,6 +28,8 @@ if (dateElement) {
 
     dateElement.textContent = formattedDate;
 }
+
+
 
 // hover to show file preview
 const hoverImg = document.getElementById("blah-img");
