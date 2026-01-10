@@ -62,6 +62,7 @@
   --shadow-opacity-dark: hsla(228, 30%, 13%, 0.1);
 
   /* semantic tokens (using core tokens) */
+
   /*background colors*/
   --color-bg-base: light-dark(var(--platinum-opacity-50), var(--shadow-grey-opacity-50));
   --color-bg-subtle: light-dark(var(--alabaster-grey-opacity-50), var(--space-indigo-opacity-50));

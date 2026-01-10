@@ -1,94 +1,103 @@
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// when the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
     document.getElementById("nav-bar").style.top = "0";
     // document.getElementById("nav-bar").style.backgroundColor = "hsla(0, 0%, 20%, 0.85)";
-  } else {
+    } else {
     document.getElementById("nav-bar").style.top = "-144px";
-  }
-  prevScrollpos = currentScrollPos;
+    }
+    prevScrollpos = currentScrollPos;
 }
 
+// display current date
 const dateElement = document.getElementById("date");
-const currentDate = new Date();
-const formattedDate = currentDate.toLocaleDateString(undefined, {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric'
-});
 
-dateElement.textContent = formattedDate;
-// document.getElementById("date").textContent = new Date().getFullYear();
+// check if on work.html
+if (dateElement) {
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleDateString(undefined, {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+    });
 
+    dateElement.textContent = formattedDate;
+}
+
+// hover to show file preview
 const hoverImg = document.getElementById("blah-img");
-const blahImage = hoverImg.querySelector('img'); 
 
-const hoverFilm = document.getElementById("film");
-// const hoverTwig = document.getElementById("twig");
-const hoverCrochet = document.getElementById("crochet");
-const hoverMake = document.getElementById("make");
-const hoverInfo = document.getElementById("info");
-const hoverMl = document.getElementById("ml");
-const hoverDailycal = document.getElementById("dailycal");
+//check if on byline.html
+if (hoverImg) {
+    const blahImage = hoverImg.querySelector('img'); 
 
-hoverFilm.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/placeholder.svg";
-    hoverImg.style.opacity = 1;
-});
-hoverFilm.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+    const hoverFilm = document.getElementById("film");
+    // const hoverTwig = document.getElementById("twig");
+    const hoverCrochet = document.getElementById("crochet");
+    const hoverMake = document.getElementById("make");
+    const hoverInfo = document.getElementById("info");
+    const hoverMl = document.getElementById("ml");
+    const hoverDailycal = document.getElementById("dailycal");
 
-// hoverTwig.addEventListener('mouseenter', () => {
-//     blahImage.src = "static/images/twig.jpeg";
-//     hoverImg.style.opacity = 1;
-// });
-// hoverTwig.addEventListener('mouseleave', () => {
-//     hoverImg.style.opacity = 0;
-// });
+    hoverFilm.addEventListener('mouseenter', () => {
+        blahImage.src = "static/images/placeholder.svg";
+        hoverImg.style.opacity = 1;
+    });
+    hoverFilm.addEventListener('mouseleave', () => {
+        hoverImg.style.opacity = 0;
+    });
 
-hoverCrochet.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/crochet.png";
-    hoverImg.style.opacity = 1;
-});
-hoverCrochet.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+    // hoverTwig.addEventListener('mouseenter', () => {
+    //     blahImage.src = "static/images/twig.jpeg";
+    //     hoverImg.style.opacity = 1;
+    // });
+    // hoverTwig.addEventListener('mouseleave', () => {
+    //     hoverImg.style.opacity = 0;
+    // });
 
-hoverMake.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/making.png";
-    hoverImg.style.opacity = 1;
-});
-hoverMake.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+    hoverCrochet.addEventListener('mouseenter', () => {
+        blahImage.src = "static/images/crochet.png";
+        hoverImg.style.opacity = 1;
+    });
+    hoverCrochet.addEventListener('mouseleave', () => {
+        hoverImg.style.opacity = 0;
+    });
 
-hoverInfo.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/infographic.png";
-    hoverImg.style.opacity = 1;
-});
-hoverInfo.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+    hoverMake.addEventListener('mouseenter', () => {
+        blahImage.src = "static/images/making.png";
+        hoverImg.style.opacity = 1;
+    });
+    hoverMake.addEventListener('mouseleave', () => {
+        hoverImg.style.opacity = 0;
+    });
 
-hoverMl.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/ds-proj.png";
-    hoverImg.style.opacity = 1;
-});
-hoverMl.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+    hoverInfo.addEventListener('mouseenter', () => {
+        blahImage.src = "static/images/infographic.png";
+        hoverImg.style.opacity = 1;
+    });
+    hoverInfo.addEventListener('mouseleave', () => {
+        hoverImg.style.opacity = 0;
+    });
 
-hoverDailycal.addEventListener('mouseenter', () => {
-    blahImage.src = "static/images/placeholder.svg";
-    hoverImg.style.opacity = 1;
-});
-hoverDailycal.addEventListener('mouseleave', () => {
-    hoverImg.style.opacity = 0;
-});
+    hoverMl.addEventListener('mouseenter', () => {
+        blahImage.src = "static/images/ds-proj.png";
+        hoverImg.style.opacity = 1;
+    });
+    hoverMl.addEventListener('mouseleave', () => {
+        hoverImg.style.opacity = 0;
+    });
+
+    hoverDailycal.addEventListener('mouseenter', () => {
+        blahImage.src = "static/images/placeholder.svg";
+        hoverImg.style.opacity = 1;
+    });
+    hoverDailycal.addEventListener('mouseleave', () => {
+        hoverImg.style.opacity = 0;
+    });
+}
 
 // /* Show and hide popup window */
 // window.onload = function() {
@@ -101,8 +110,6 @@ hoverDailycal.addEventListener('mouseleave', () => {
 // 		return false;
 // 	});
 // };
-
-
 
 // var homeCover = document.getElementById('homeCover');
 // var homeProj1 = document.getElementById('homeProj1');
