@@ -1104,6 +1104,9 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -2689,9 +2692,9 @@
       aspect-ratio: 4/5;
     }
   }
-  .md\:aspect-64\/39 {
+  .md\:aspect-8\/5 {
     @media (width >= 48rem) {
-      aspect-ratio: 64/39;
+      aspect-ratio: 8/5;
     }
   }
   .md\:aspect-video {
@@ -3036,6 +3039,15 @@ a.fontStyle-footer:active {
   background: var(--color-opacity-base);
   box-shadow: 0 4px 8px 0 var(--color-shadow) inset, 0 2px 4px 0 var(--color-shadow) inset, 0 4px 8px 0 var(--color-shadow), 0 2px 4px 0 var(--color-shadow), 0 4px 16px 0 var(--color-shadow);
 }
+.image-frame-work {
+  display: flex;
+  padding: var(--spacing-medium, 1rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-regular, 1rem);
+}
 .topnav {
   transition: top 0.3s ease;
 }
@@ -3046,7 +3058,8 @@ a.fontStyle-footer:active {
 .project:hover {
   background-color: var(--color-opacity-base);
   border-radius: var(--radius-large, 1.5rem);
-  transition: 0.3s ease;
+  outline: 1px solid var(--color-border-subtle);
+  box-shadow: 0 4px 8px 0 var(--color-shadow) inset, 0 2px 4px 0 var(--color-shadow) inset, 0 4px 8px 0 var(--color-shadow), 0 2px 4px 0 var(--color-shadow), 0 4px 16px 0 var(--color-shadow);
 }
 .project-cover-img {
   width: 100vw;
