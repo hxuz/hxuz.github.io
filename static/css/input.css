@@ -270,7 +270,7 @@ a.fontStyle-footer:active {
   align-items: center;
   flex-shrink: 0;
 
-  border-radius: var(--radius-regular, 1rem);
+  border-radius: var(--radius-small, 0.5rem);
 }
 
 .topnav {
@@ -285,7 +285,7 @@ a.fontStyle-footer:active {
 .project:hover {
   /*background: linear-gradient(to bottom, transparent, var(--color-opacity-base));*/
   background-color: var(--color-opacity-base);
-  border-radius: var(--radius-large, 1.5rem);
+  border-radius: var(--radius-small, 0.5rem);
   outline: 1px solid var(--color-border-subtle);
 
   box-shadow: 
