@@ -221,6 +221,13 @@ a.fontStyle-footer:active {
   font-weight: 400;
 }
 
+.fontStyle-overview {
+  font-size: var(--fontSize-medium);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
 .fontStyle-badge {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -285,7 +292,7 @@ a.fontStyle-footer:active {
 .project:hover {
   /*background: linear-gradient(to bottom, transparent, var(--color-opacity-base));*/
   background-color: var(--color-opacity-base);
-  border-radius: var(--radius-small, 0.5rem);
+  border-radius: var(--radius-regular, 1rem);
   outline: 1px solid var(--color-border-subtle);
 
   box-shadow: 
