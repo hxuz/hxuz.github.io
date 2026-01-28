@@ -271,7 +271,7 @@ a.fontStyle-footer:active {
 
 .image-frame-work {
   display: flex;
-  padding: var(--spacing-medium, 1rem);
+  padding: var(--spacing-xsmall, 0.5rem);
   flex-direction: column;
   justify-content: center;
   align-items: center;
