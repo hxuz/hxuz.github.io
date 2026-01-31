@@ -40,7 +40,7 @@ h1 { /* blue monospace text for h2 */
   font-size: var(--fontSize-xlarge);
   font-style: normal;
   font-weight: 400;
-  line-height: 115%;
+  line-height: 125%;
   text-transform: lowercase;
 }
 
@@ -51,7 +51,7 @@ h2 { /* blue monospace text for h2 */
   font-size: var(--fontSize-large);
   font-style: normal;
   font-weight: 400;
-  line-height: 115%;
+  line-height: 125%;
   text-transform: lowercase;
 }
 
@@ -222,19 +222,28 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-overview {
-  font-size: var(--fontSize-medium);
+  /*font-family: "Plantin MT Pro", serif;*/
+  font-size: var(--fontSize-large);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 135%;
 }
 
-.fontStyle-badge {
+.fontStyle-pagetitle {
+  color: var(--color-identity-primary);
+  font-family: "Plantin MT Pro", serif;
+  font-size: 2.75rem;
+  line-height: 125%;
+  font-weight: 400;
+}
+
+/*.fontStyle-badge {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: var(--fontSize-xsmall);
   color: var(--color-text-subtle);
   background-color: var(--color-opacity-base);
-}
+}*/
 
 .divider-gradient {
   border-top: 1px solid transparent;

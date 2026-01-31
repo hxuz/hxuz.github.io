@@ -370,6 +370,12 @@
   .order-none {
     order: 0;
   }
+  .col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+  .col-span-2 {
+    grid-column: span 2 / span 2;
+  }
   .col-span-full {
     grid-column: 1 / -1;
   }
@@ -463,9 +469,6 @@
   .mr-4 {
     margin-right: calc(var(--spacing) * 4);
   }
-  .mb-1 {
-    margin-bottom: calc(var(--spacing) * 1);
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -478,11 +481,17 @@
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
+  .mb-12 {
+    margin-bottom: calc(var(--spacing) * 12);
+  }
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
+  }
+  .mb-30 {
+    margin-bottom: calc(var(--spacing) * 30);
   }
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
@@ -690,6 +699,12 @@
   }
   .max-w-288 {
     max-width: calc(var(--spacing) * 288);
+  }
+  .max-w-320 {
+    max-width: calc(var(--spacing) * 320);
+  }
+  .max-w-324 {
+    max-width: calc(var(--spacing) * 324);
   }
   .max-w-none {
     max-width: none;
@@ -918,11 +933,11 @@
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
   .grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
   .grid-rows-\[auto_auto\] {
     grid-template-rows: auto auto;
@@ -1255,23 +1270,8 @@
   .rounded {
     border-radius: 0.25rem;
   }
-  .rounded-\[0\.7rem\] {
-    border-radius: 0.7rem;
-  }
-  .rounded-\[0\.8rem\] {
-    border-radius: 0.8rem;
-  }
-  .rounded-\[0\.75rem\] {
-    border-radius: 0.75rem;
-  }
   .rounded-\[0\.625rem\] {
     border-radius: 0.625rem;
-  }
-  .rounded-\[0\.775rem\] {
-    border-radius: 0.775rem;
-  }
-  .rounded-\[0\.875rem\] {
-    border-radius: 0.875rem;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -1284,9 +1284,6 @@
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
-  }
-  .rounded-xs {
-    border-radius: var(--radius-xs);
   }
   .rounded-s {
     border-start-start-radius: 0.25rem;
@@ -1796,6 +1793,9 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
@@ -1837,6 +1837,9 @@
   }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
+  }
+  .pb-7 {
+    padding-bottom: calc(var(--spacing) * 7);
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
@@ -2706,6 +2709,21 @@
       grid-column: span 4 / span 4;
     }
   }
+  .md\:col-span-5 {
+    @media (width >= 48rem) {
+      grid-column: span 5 / span 5;
+    }
+  }
+  .md\:col-span-6 {
+    @media (width >= 48rem) {
+      grid-column: span 6 / span 6;
+    }
+  }
+  .md\:col-span-10 {
+    @media (width >= 48rem) {
+      grid-column: span 10 / span 10;
+    }
+  }
   .md\:block {
     @media (width >= 48rem) {
       display: block;
@@ -2879,7 +2897,7 @@ h1 {
   font-size: var(--fontSize-xlarge);
   font-style: normal;
   font-weight: 400;
-  line-height: 115%;
+  line-height: 125%;
   text-transform: lowercase;
 }
 h2 {
@@ -2889,7 +2907,7 @@ h2 {
   font-size: var(--fontSize-large);
   font-style: normal;
   font-weight: 400;
-  line-height: 115%;
+  line-height: 125%;
   text-transform: lowercase;
 }
 h3 {
@@ -3034,17 +3052,17 @@ a.fontStyle-footer:active {
   font-weight: 400;
 }
 .fontStyle-overview {
-  font-size: var(--fontSize-medium);
+  font-size: var(--fontSize-large);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 135%;
 }
-.fontStyle-badge {
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: var(--fontSize-xsmall);
-  color: var(--color-text-subtle);
-  background-color: var(--color-opacity-base);
+.fontStyle-pagetitle {
+  color: var(--color-identity-primary);
+  font-family: "Plantin MT Pro", serif;
+  font-size: 2.75rem;
+  line-height: 125%;
+  font-weight: 400;
 }
 .divider-gradient {
   border-top: 1px solid transparent;
