@@ -103,6 +103,26 @@ if (hoverImg) {
     });
 }
 
+// back arrow hover
+const backArrow = document.getElementById("backArrow");
+
+// add and remove back arrow
+if (backArrow) {
+    const hoverBack = document.getElementById("back")
+
+    hoverBack.addEventListener('mouseenter', () =>{
+        // When showing
+        backArrow.classList.remove('w-0', 'pr-0');
+        backArrow.classList.add('w-fit', 'pr-1.5');
+    });
+
+    hoverBack.addEventListener('mouseleave', () =>{
+        // When hiding
+        backArrow.classList.add('w-0', 'pr-0');
+        backArrow.classList.remove('w-fit', 'pr-1.5');
+    });
+}
+
 // /* Show and hide popup window */
 // window.onload = function() {
 // 	$("#overlay").show();

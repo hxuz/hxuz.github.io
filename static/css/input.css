@@ -222,7 +222,7 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-overview {
-  /*font-family: "Plantin MT Pro", serif;*/
+  font-family: "Plantin MT Pro", serif;
   font-size: var(--fontSize-large);
   font-style: normal;
   font-weight: 400;

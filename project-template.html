@@ -42,7 +42,7 @@
     <div class="max-w-320 mx-auto mt-36 mb-12 grid grid-cols-12 gap-5">
       <div class="col-span-full md:col-span-3 h-full grid content-between mx-4 xl:m-0">
         <a class="back-link group flex flex-row content-center gap-1.5 pb-5 w-fit" href="work.html">
-          <p>&#8592;</p>
+          <p class="text-[var(--color-text-subtle)] group-hover:text-[var(--color-text-base)] transition duration-300">&#8592;</p>
           <p class="opacity-0 group-hover:opacity-100 transition duration-300 underline underline-offset-3 pt-0.5">Back</p>
         </a>
         <div>
@@ -63,29 +63,31 @@
 
     <!-- overview -->
     <div class="max-w-320 mx-4 xl:mx-auto mb-30 grid grid-cols-12 gap-5">
-      <div class="hidden md:block col-span-2"></div>
-
-      <div class="col-span-full md:col-span-4">
-        <div class="w-full py-4 divider-gradient">
-          <h3 class="pb-2">Key outcomes</h3>
-          <p>6x in impressions for Dropbox Dash limited preview<br>2x in “Join waitlist” click-through rate</p>
-        </div>
-
-        <div class="w-full py-4 divider-gradient">
-          <h3 class="pb-2">My role</h3>
-          <p>Sole designer owning end-to-end product design from concept to launch</p>
-        </div>
-
-        <div class="w-full py-4 divider-gradient-last">
-          <h3 class="pb-2">Timeline</h3>
-          <p>Q2 2024 to Q3 2024</p>
-        </div>
-      </div>
 
       <div class="col-span-full md:col-span-6">
-        <p class="fontStyle-overview pb-5">Launched in October 2024, Dropbox Dash features an AI-powered universal search for companies to find, organize, and protect documents and content.</p>
-        <p class="fontStyle-overview">This project focused on user acquisition by <span class="text-[var(--color-identity-primary)]">integrating an AI search preview into core search</span>, leading existing Dropbox users to Dropbox Dash. I experimented multiple forms and interaction patterns to shape the direction of the AI preview, while navigating complex beta-stage technical constraints.</p>
+        <p class="fontStyle-overview pb-5">Launched in October 2024, <em>Dropbox Dash</em> features an AI-powered universal search for companies to find, organize, and protect documents and content.</p>
+        <p class="fontStyle-overview">This project focused on user acquisition by <span class="text-[var(--color-identity-primary)]">integrating an AI search preview into core search</span>, leading existing <em>Dropbox</em> users to <em>Dropbox Dash</em>. I experimented multiple forms and interaction patterns to shape the direction of the AI preview, while navigating complex beta-stage technical constraints.</p>
       </div>
+
+      <div class="hidden md:block col-span-1"></div>
+
+      <div class="col-span-full md:col-span-5">
+        <div class="w-full flex flex-row gap-1 py-4 divider-gradient">
+          <p class="basis-2/5 text-[var(--color-text-subtle)]">Key outcomes</p>
+          <p class="basis-full">6x in impressions for AI search preview<br>2x in “Join waitlist” click-through rate</p>
+        </div>
+
+        <div class="w-full flex flex-row gap-1 py-4 divider-gradient">
+          <p class="basis-2/5 text-[var(--color-text-subtle)]">My role</p>
+          <p class="basis-full">Sole designer owning end-to-end product design from concept to launch</p>
+        </div>
+
+        <div class="w-full flex flex-row gap-1 py-4 divider-gradient-last">
+          <p class="basis-2/5 text-[var(--color-text-subtle)]">Timeline</p>
+          <p class="basis-full">Q2 2024 to Q3 2024</p>
+        </div>
+      </div>
+
     </div>
 
     <!-- section -->
@@ -239,24 +241,31 @@
         <p>Connect</p>
       </div>
 
-      <div class="col-span-full md:col-span-4 content-start mx-4 xl:m-0">
+      <div class="col-span-full md:col-span-5 content-start mx-4 xl:m-0">
         <h2 class="pb-5">Get in touch for case study</h2>
         <p class="pb-5">Request a case study to see my tinkering process and the experimentation plans next.</p>
-        <a class="fontStyle-link" href="mailto: helenxuzh@gmail.com" target="_blank">Contact me &#8594;</a>
+        <a class="back-link group flex flex-row content-center gap-1.5 pb-5 w-fit" href="mailto: helenxuzh@gmail.com" target="_blank">
+          <p class="text-[var(--color-text-subtle)] group-hover:text-[var(--color-text-base)] transition duration-300 group-hover:underline underline-offset-3">Contact me</p>
+          <p class="text-[var(--color-text-subtle)] group-hover:text-[var(--color-text-base)] transition duration-300">&#8594;</p>
+        </a>
       </div>
     </div>
 
     <div class="max-w-320 mx-auto mt-36 mb-20 grid grid-cols-12 gap-5">
       <div class="col-span-full md:col-span-2">
-        <a class="fontStyle-link" href="work.html">&#8592; Back to all works</a>
+        <!-- <a class="fontStyle-link" href="work.html">&#8592; Back to all works</a> -->
+        <a id="back" class="back-link group flex flex-row content-center pb-5 w-fit" href="work.html">
+          <p id="backArrow" class="w-0 pr-0 overflow-hidden opacity-0 group-hover:opacity-100 transition-all duration-300">&#8592;</p>
+          <p class="text-[var(--color-text-subtle)] group-hover:text-[var(--color-text-base)] transition duration-300 group-hover:underline underline-offset-3 pt-0.5">Back to all works</p>
+        </a>
       </div>
 
       <div class="col-span-full md:col-span-10 content-start mx-4 mb-20 xl:m-0">
-        <h3 class="pb-5">Jump to</h3>
+        <p class="pt-0.5 pb-5">Jump to...</p>
 
         <a class="w-full flex flex-row gap-2 py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
           <div class="basis-full">
-            <p class="font-medium text-base pb-1">Glamroom AI — makeup try-on and beyond</p>
+            <h3 class="pb-1">Glamroom AI — makeup try-on and beyond</h3>
             <p class="fontStyle-desc">Makeup inspiration, AI try-on, customization, and shopping, all in one place</p>
           </div>
           <p class="basis-1/3 content-center text-right fontStyle-desc">Gen-AI try-on & LLM chat</p>
@@ -264,15 +273,15 @@
 
         <a class="w-full flex flex-row py-5 divider-gradient hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
           <div class="basis-full">
-            <p class="font-medium text-base pb-1">Flipping Amazon Luxury</p>
+            <h3 class="pb-1">Flipping Amazon Luxury</h3>
             <p class="fontStyle-desc">Rebrand and end-to-end redesign with an elevated look and feel</p>
           </div>
-          <p class="basis-1/3 content-center text-right fontStyle-desc">Design system & Branding</p>
+          <p class="basis-1/3 content-center text-right fontStyle-desc">Interaction & Design system</p>
         </a>
 
         <a class="w-full flex flex-row gap-2 py-5 divider-gradient-last hover:bg-[var(--color-opacity-base)] active:bg-[var(--color-opacity-state1)] cursor-not-allowed" href="#" onclick="return false;">
           <div class="basis-full">
-            <p class="font-medium text-base pb-1">Dropbox products: personalized upsell</p>
+            <h3 class="pb-1">Dropbox products: personalized upsell</h3>
             <p class="fontStyle-desc">Personalized product exploration experience with add-ons for logged-in users</p>
           </div>
           <p class="basis-1/3 content-center text-right fontStyle-desc">Monetization</p>
