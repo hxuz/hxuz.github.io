@@ -700,6 +700,9 @@
   .max-w-288 {
     max-width: calc(var(--spacing) * 288);
   }
+  .max-w-312 {
+    max-width: calc(var(--spacing) * 312);
+  }
   .max-w-320 {
     max-width: calc(var(--spacing) * 320);
   }
@@ -3087,7 +3090,7 @@ a.fontStyle-footer:active {
 .fontStyle-pagetitle {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   line-height: 125%;
   font-weight: 400;
 }

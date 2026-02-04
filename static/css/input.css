@@ -232,7 +232,7 @@ a.fontStyle-footer:active {
 .fontStyle-pagetitle {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   line-height: 125%;
   font-weight: 400;
 }
