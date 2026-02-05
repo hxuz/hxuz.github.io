@@ -33,7 +33,7 @@ body {
     opacity: 0; /* Initial state before animation starts */
 }
 
-h1 { /* blue monospace text for h2 */
+h1 { /* blue monospace text for h1 */
   margin: 0rem;
   color: var(--color-identity-primary);
   font-family: "Fragment Mono", monospace;
@@ -47,12 +47,13 @@ h1 { /* blue monospace text for h2 */
 h2 { /* blue monospace text for h2 */
   margin: 0rem;
   color: var(--color-identity-primary);
-  font-family: "Fragment Mono", monospace;
+  font-family: "Plantin MT Pro", serif;
   font-size: var(--fontSize-large);
-  font-style: normal;
-  font-weight: 400;
+  font-style: italic;
+  font-weight: 600;
   line-height: 125%;
-  text-transform: lowercase;
+  letter-spacing: 0.03rem;
+  /*text-transform: lowercase;*/
 }
 
 h3 { /* bold text for h3 */
@@ -201,7 +202,7 @@ a.fontStyle-footer:active {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
   font-size: 2.25rem;
-  line-height: 115%;
+  line-height: 125%;
   font-weight: 400;
 }
 
@@ -216,9 +217,11 @@ a.fontStyle-footer:active {
 .fontStyle-newsh2 {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
+  font-style: italic;
   font-size: var(--fontSize-large);
   line-height: normal;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
 }
 
 .fontStyle-overview {
@@ -232,6 +235,7 @@ a.fontStyle-footer:active {
 .fontStyle-pagetitle {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
+  font-style: normal;
   font-size: 2.5rem;
   line-height: 125%;
   font-weight: 400;

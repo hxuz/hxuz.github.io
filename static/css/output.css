@@ -703,11 +703,8 @@
   .max-w-312 {
     max-width: calc(var(--spacing) * 312);
   }
-  .max-w-320 {
-    max-width: calc(var(--spacing) * 320);
-  }
-  .max-w-324 {
-    max-width: calc(var(--spacing) * 324);
+  .max-w-316 {
+    max-width: calc(var(--spacing) * 316);
   }
   .max-w-none {
     max-width: none;
@@ -2779,11 +2776,6 @@
       line-height: var(--tw-leading, var(--text-sm--line-height));
     }
   }
-  .lg\:mx-auto {
-    @media (width >= 64rem) {
-      margin-inline: auto;
-    }
-  }
   .lg\:w-108 {
     @media (width >= 64rem) {
       width: calc(var(--spacing) * 108);
@@ -2932,12 +2924,12 @@ h1 {
 h2 {
   margin: 0rem;
   color: var(--color-identity-primary);
-  font-family: "Fragment Mono", monospace;
+  font-family: "Plantin MT Pro", serif;
   font-size: var(--fontSize-large);
-  font-style: normal;
-  font-weight: 400;
+  font-style: italic;
+  font-weight: 600;
   line-height: 125%;
-  text-transform: lowercase;
+  letter-spacing: 0.03rem;
 }
 h3 {
   margin: 0rem;
@@ -3063,7 +3055,7 @@ a.fontStyle-footer:active {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
   font-size: 2.25rem;
-  line-height: 115%;
+  line-height: 125%;
   font-weight: 400;
 }
 .fontStyle-overline {
@@ -3076,9 +3068,11 @@ a.fontStyle-footer:active {
 .fontStyle-newsh2 {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
+  font-style: italic;
   font-size: var(--fontSize-large);
   line-height: normal;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
 }
 .fontStyle-overview {
   font-family: "Plantin MT Pro", serif;
@@ -3090,6 +3084,7 @@ a.fontStyle-footer:active {
 .fontStyle-pagetitle {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
+  font-style: normal;
   font-size: 2.5rem;
   line-height: 125%;
   font-weight: 400;

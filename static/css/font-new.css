@@ -24,6 +24,28 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Plantin MT Pro';
+    src: local('Plantin MT Pro Semibold'), local('PlantinMTPro-Semibold'),
+        url('../fonts/PlantinMTPro/PlantinMTPro-Semibold.woff2') format('woff2'),
+        url('../fonts/PlantinMTPro/PlantinMTPro-Semibold.woff') format('woff'),
+        url('../fonts/PlantinMTPro/PlantinMTPro-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plantin MT Pro';
+    src: local('Plantin MT Pro Semibold Italic'), local('PlantinMTPro-SemiboldIt'),
+        url('../fonts/PlantinMTPro/PlantinMTPro-SemiboldIt.woff2') format('woff2'),
+        url('../fonts/PlantinMTPro/PlantinMTPro-SemiboldIt.woff') format('woff'),
+        url('../fonts/PlantinMTPro/PlantinMTPro-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
 /*@font-face {
     font-family: "Plantin MT Pro", serif;
     font-style: normal;
