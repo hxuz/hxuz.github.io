@@ -157,7 +157,7 @@ a.fontStyle-footer:active {
 .fontStyle-daily {
   color: var(--color-text-subtle);
   font-family: "Plantin MT Pro", serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
   line-height: normal;
   font-variant: small-caps;
 }
@@ -201,8 +201,8 @@ a.fontStyle-footer:active {
 .fontStyle-newsheader {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
-  font-size: 2.25rem;
-  line-height: 125%;
+  font-size: 2.75rem;
+  line-height: 115%;
   font-weight: 400;
 }
 
@@ -237,7 +237,7 @@ a.fontStyle-footer:active {
   font-family: "Plantin MT Pro", serif;
   font-style: normal;
   font-size: 2.5rem;
-  line-height: 125%;
+  line-height: 115%;
   font-weight: 400;
 }
 

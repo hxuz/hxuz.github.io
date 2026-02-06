@@ -610,8 +610,17 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
-  .h-20 {
-    height: calc(var(--spacing) * 20);
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
+  .h-12\.5 {
+    height: calc(var(--spacing) * 12.5);
+  }
+  .h-13 {
+    height: calc(var(--spacing) * 13);
+  }
+  .h-14 {
+    height: calc(var(--spacing) * 14);
   }
   .h-24 {
     height: calc(var(--spacing) * 24);
@@ -1383,6 +1392,10 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-b-1 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-l {
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
@@ -1814,8 +1827,11 @@
   .pt-0\.5 {
     padding-top: calc(var(--spacing) * 0.5);
   }
-  .pt-3 {
-    padding-top: calc(var(--spacing) * 3);
+  .pt-1 {
+    padding-top: calc(var(--spacing) * 1);
+  }
+  .pt-2 {
+    padding-top: calc(var(--spacing) * 2);
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
@@ -3016,7 +3032,7 @@ a.fontStyle-footer:active {
 .fontStyle-daily {
   color: var(--color-text-subtle);
   font-family: "Plantin MT Pro", serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
   line-height: normal;
   font-variant: small-caps;
 }
@@ -3054,8 +3070,8 @@ a.fontStyle-footer:active {
 .fontStyle-newsheader {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
-  font-size: 2.25rem;
-  line-height: 125%;
+  font-size: 2.75rem;
+  line-height: 115%;
   font-weight: 400;
 }
 .fontStyle-overline {
@@ -3086,7 +3102,7 @@ a.fontStyle-footer:active {
   font-family: "Plantin MT Pro", serif;
   font-style: normal;
   font-size: 2.5rem;
-  line-height: 125%;
+  line-height: 115%;
   font-weight: 400;
 }
 .divider-gradient {
