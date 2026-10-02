@@ -463,11 +463,11 @@
   .mt-36 {
     margin-top: calc(var(--spacing) * 36);
   }
-  .mr-4 {
-    margin-right: calc(var(--spacing) * 4);
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
   }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
@@ -475,23 +475,20 @@
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
+  .mb-9 {
+    margin-bottom: calc(var(--spacing) * 9);
+  }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
   }
-  .mb-16 {
-    margin-bottom: calc(var(--spacing) * 16);
-  }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
   .mb-30 {
     margin-bottom: calc(var(--spacing) * 30);
-  }
-  .ml-4 {
-    margin-left: calc(var(--spacing) * 4);
   }
   .box-border {
     box-sizing: border-box;
@@ -571,6 +568,9 @@
   .aspect-3\/2 {
     aspect-ratio: 3/2;
   }
+  .aspect-3\/4 {
+    aspect-ratio: 3/4;
+  }
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
@@ -609,9 +609,6 @@
   }
   .h-10 {
     height: calc(var(--spacing) * 10);
-  }
-  .h-13 {
-    height: calc(var(--spacing) * 13);
   }
   .h-24 {
     height: calc(var(--spacing) * 24);
@@ -673,9 +670,6 @@
   .w-0 {
     width: calc(var(--spacing) * 0);
   }
-  .w-108 {
-    width: calc(var(--spacing) * 108);
-  }
   .w-\[100px\] {
     width: 100px;
   }
@@ -697,14 +691,14 @@
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
-  .max-w-288 {
-    max-width: calc(var(--spacing) * 288);
+  .max-w-280 {
+    max-width: calc(var(--spacing) * 280);
+  }
+  .max-w-290 {
+    max-width: calc(var(--spacing) * 290);
   }
   .max-w-312 {
     max-width: calc(var(--spacing) * 312);
-  }
-  .max-w-316 {
-    max-width: calc(var(--spacing) * 316);
   }
   .max-w-none {
     max-width: none;
@@ -1371,9 +1365,9 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
   }
-  .border-t-2 {
+  .border-t-1 {
     border-top-style: var(--tw-border-style);
-    border-top-width: 2px;
+    border-top-width: 1px;
   }
   .border-r {
     border-right-style: var(--tw-border-style);
@@ -1418,8 +1412,8 @@
   .border-\[\#fbf0df\] {
     border-color: #fbf0df;
   }
-  .border-\[var\(--color-text-subtle\)\] {
-    border-color: var(--color-text-subtle);
+  .border-\[var\(--color-border-subtle\)\] {
+    border-color: var(--color-border-subtle);
   }
   .bg-\[\#1a1a1a\] {
     background-color: #1a1a1a;
@@ -1806,9 +1800,6 @@
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
-  .py-5 {
-    padding-block: calc(var(--spacing) * 5);
-  }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
@@ -1817,12 +1808,6 @@
   }
   .pt-0\.5 {
     padding-top: calc(var(--spacing) * 0.5);
-  }
-  .pt-2 {
-    padding-top: calc(var(--spacing) * 2);
-  }
-  .pt-5 {
-    padding-top: calc(var(--spacing) * 5);
   }
   .pr-0 {
     padding-right: calc(var(--spacing) * 0);
@@ -1857,8 +1842,11 @@
   .pb-7 {
     padding-bottom: calc(var(--spacing) * 7);
   }
-  .pb-10 {
-    padding-bottom: calc(var(--spacing) * 10);
+  .pb-8 {
+    padding-bottom: calc(var(--spacing) * 8);
+  }
+  .pb-9 {
+    padding-bottom: calc(var(--spacing) * 9);
   }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
@@ -2774,20 +2762,20 @@
       aspect-ratio: var(--aspect-video);
     }
   }
+  .md\:max-w-108 {
+    @media (width >= 48rem) {
+      max-width: calc(var(--spacing) * 108);
+    }
+  }
+  .md\:basis-1\/2 {
+    @media (width >= 48rem) {
+      flex-basis: calc(1/2 * 100%);
+    }
+  }
   .md\:text-sm {
     @media (width >= 48rem) {
       font-size: var(--text-sm);
       line-height: var(--tw-leading, var(--text-sm--line-height));
-    }
-  }
-  .lg\:w-108 {
-    @media (width >= 64rem) {
-      width: calc(var(--spacing) * 108);
-    }
-  }
-  .xl\:m-0 {
-    @media (width >= 80rem) {
-      margin: calc(var(--spacing) * 0);
     }
   }
   .xl\:mx-auto {
@@ -2795,34 +2783,14 @@
       margin-inline: auto;
     }
   }
-  .xl\:mt-18 {
+  .xl\:mt-24 {
     @media (width >= 80rem) {
-      margin-top: calc(var(--spacing) * 18);
-    }
-  }
-  .xl\:mr-0 {
-    @media (width >= 80rem) {
-      margin-right: calc(var(--spacing) * 0);
-    }
-  }
-  .xl\:mr-3 {
-    @media (width >= 80rem) {
-      margin-right: calc(var(--spacing) * 3);
+      margin-top: calc(var(--spacing) * 24);
     }
   }
   .xl\:mb-0 {
     @media (width >= 80rem) {
       margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
-  .xl\:ml-0 {
-    @media (width >= 80rem) {
-      margin-left: calc(var(--spacing) * 0);
-    }
-  }
-  .xl\:ml-3 {
-    @media (width >= 80rem) {
-      margin-left: calc(var(--spacing) * 3);
     }
   }
   .xl\:aspect-square {
@@ -2896,7 +2864,7 @@ body {
   font-feature-settings: "ss03" 1;
   font-style: normal;
   font-size: var(--fontSize-regular);
-  line-height: 135%;
+  line-height: 150%;
 }
 ::selection {
   background-color: var(--color-highlight);
@@ -2929,11 +2897,9 @@ h2 {
   margin: 0rem;
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
-  font-size: var(--fontSize-large);
-  font-style: italic;
-  font-weight: 600;
+  font-size: var(--fontSize-medium);
+  font-weight: 400;
   line-height: 125%;
-  letter-spacing: 0.03rem;
 }
 h3 {
   margin: 0rem;
@@ -2941,11 +2907,11 @@ h3 {
   font-size: var(--fontSize-regular);
   font-style: normal;
   font-weight: 500;
-  line-height: 135%;
+  line-height: 150%;
 }
 p {
   margin: 0rem;
-  line-height: 135%;
+  line-height: 150%;
 }
 a.fontStyle-link:hover {
   color: var(--color-text-base);
@@ -3054,42 +3020,26 @@ a.fontStyle-footer:active {
   text-decoration-color: var(--color-text-faint);
   text-underline-offset: 0.2rem;
 }
-.fontStyle-newsheader {
-  color: var(--color-identity-primary);
-  font-family: "Plantin MT Pro", serif;
-  font-size: 2.75rem;
-  line-height: 115%;
-  font-weight: 400;
-}
 .fontStyle-overline {
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.08rem;
   font-size: var(--fontSize-small);
   color: var(--color-text-subtle);
   font-weight: 500;
-}
-.fontStyle-newsh2 {
-  color: var(--color-identity-primary);
-  font-family: "Plantin MT Pro", serif;
-  font-style: italic;
-  font-size: var(--fontSize-large);
-  line-height: normal;
-  font-weight: 600;
-  letter-spacing: 0.03rem;
 }
 .fontStyle-overview {
   font-family: "Plantin MT Pro", serif;
   font-size: var(--fontSize-large);
   font-style: normal;
   font-weight: 400;
-  line-height: 135%;
+  line-height: 150%;
 }
 .fontStyle-pagetitle {
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
   font-style: normal;
   font-size: 2.5rem;
-  line-height: 115%;
+  line-height: 125%;
   font-weight: 400;
 }
 .divider-gradient {
@@ -3140,6 +3090,9 @@ a.fontStyle-footer:active {
 .project-cover-img {
   width: 100vw;
   height: auto;
+}
+.newspaper-visual {
+  border-radius: var(--radius-mini, 0.25rem);
 }
 @property --tw-translate-x {
   syntax: "*";
