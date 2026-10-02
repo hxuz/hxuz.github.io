@@ -5,23 +5,24 @@
 
   /* core tokens */
   /* spacing */
-  --spacing-tiny: 0.25rem; /* 4px */
-  --spacing-xsmall: 0.5rem; /* 8px */
-  --spacing-small: 0.75rem; /* 12px */
-  --spacing-medium: 1rem; /* 16px */
-  --spacing-large: 1.25rem; /* 20px */
-  --spacing-xlarge: 2rem; /* 32px */
-  --spacing-wide: 2.5rem; /* 40px */
+  --spacing-mini: 0.25rem; /* 4px */
+  --spacing-small: 0.5rem; /* 8px */
+  --spacing-medium: 0.75rem; /* 12px */
+  --spacing-large: 1rem; /* 16px */
+  --spacing-xlarge: 1.25rem; /* 20px */
+  --spacing-xxlarge: 2.25rem; /* 36px */
+  --spacing-wide: 3rem; /* 48px */
 
   /* font size */
   --fontSize-xsmall: 0.625rem; /* 10px */
-  --fontSize-small: 0.875rem; /* 14px */
-  --fontSize-regular: 1.125rem; /* 18px */
+  --fontSize-small: 0.75rem; /* 12px */
+  --fontSize-regular: 1rem; /* 16px */
   --fontSize-medium: 1.25rem; /* 20px */
   --fontSize-large: 1.5rem; /* 24px */
   --fontSize-xlarge: 2rem; /* 32px */
 
   /* radius */
+  --radius-mini: 0.25rem; /* 4px */
   --radius-small: 0.5rem; /* 8px */
   --radius-regular: 1rem; /* 16px */
   --radius-large: 1.5rem; /* 24px */

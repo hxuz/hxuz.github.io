@@ -37,14 +37,14 @@ h1 { /* blue monospace text for h1 */
   margin: 0rem;
   color: var(--color-identity-primary);
   font-family: "Fragment Mono", monospace;
-  font-size: var(--fontSize-xlarge);
+  font-size: var(--fontSize-medium);
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
   text-transform: lowercase;
 }
 
-h2 { /* blue monospace text for h2 */
+h2 { /* blue serif text for h2 */
   margin: 0rem;
   color: var(--color-identity-primary);
   font-family: "Plantin MT Pro", serif;
@@ -56,7 +56,7 @@ h2 { /* blue monospace text for h2 */
   /*text-transform: lowercase;*/
 }
 
-h3 { /* bold text for h3 */
+h3 { /* medium weight text for h3 */
   margin: 0rem;
   color: var(--color-text-base);
   font-size: var(--fontSize-regular);
@@ -67,6 +67,7 @@ h3 { /* bold text for h3 */
 
 p {
 	margin: 0rem;
+  line-height: 135%;
 }
 
 a.fontStyle-link:hover {
@@ -80,7 +81,6 @@ a.fontStyle-link:hover {
 a.fontStyle-link:active {
   color: var(--color-text-base);
   text-decoration: underline;
-  /*text-decoration-color: var(--color-text-faint);*/
   text-underline-offset: 0.2rem;
   transition: 0.3s ease;
 }
@@ -89,7 +89,6 @@ a.fontStyle-nav:hover {
   color: var(--color-text-base);
   background-color: transparent;
   transition: 0.3s ease;
-  text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 0.2rem;
 }
@@ -98,7 +97,6 @@ a.fontStyle-nav:active {
   color: var(--color-text-base);
   background-color: transparent;
   transition: 0.3s ease;
-  text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 0.2rem;
 }
@@ -106,13 +104,11 @@ a.fontStyle-nav:active {
 a.fontStyle-nav-selected:hover {
   color: var(--color-text-faint);
   background-color: transparent;
-  text-transform: uppercase;
 }
 
 a.fontStyle-nav-selected:active {
   color: var(--color-text-base);
   background-color: transparent;
-  text-transform: uppercase;
 }
 
 a.fontStyle-footer:hover {
@@ -136,20 +132,16 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-nav-icon {
-  font-size: var(--fontSize-xlarge);
+  font-size: var(--fontSize-large);
 }
 
 .fontStyle-nav {
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: var(--fontSize-small);
+  font-size: var(--fontSize-regular);
   color: var(--color-text-subtle);
 }
 
 .fontStyle-nav-selected {
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: var(--fontSize-small);
+  font-size: var(--fontSize-regular);
   font-weight: 500;
   color: var(--color-text-base);
 }
@@ -170,8 +162,15 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-footer {
-  font-size: var(--fontSize-small);
+  font-size: var(--fontSize-regular);
   color: var(--color-text-faint);
+}
+
+.fontStyle-subtext {
+  color: var(--color-text-subtle);
+  font-size: var(--fontSize-regular);
+  font-style: normal;
+  line-height: 125%;
 }
 
 .fontStyle-desc {
@@ -264,7 +263,7 @@ a.fontStyle-footer:active {
 
 .image-frame-nocap {
   display: flex;
-  padding: var(--spacing-medium, 1rem);
+  padding: var(--spacing-large, 1rem);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -284,7 +283,7 @@ a.fontStyle-footer:active {
 
 .image-frame-work {
   display: flex;
-  padding: var(--spacing-xsmall, 0.5rem);
+  padding: var(--spacing-small, 0.5rem);
   flex-direction: column;
   justify-content: center;
   align-items: center;
