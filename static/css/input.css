@@ -138,16 +138,16 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-nav-icon {
-  font-size: var(--fontSize-large);
+  font-size: var(--fontSize-medium);
 }
 
 .fontStyle-nav {
-  font-size: var(--fontSize-regular);
+  font-size: 0.875rem;
   color: var(--color-text-subtle);
 }
 
 .fontStyle-nav-selected {
-  font-size: var(--fontSize-regular);
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--color-text-base);
 }
@@ -168,7 +168,7 @@ a.fontStyle-footer:active {
 }
 
 .fontStyle-footer {
-  font-size: var(--fontSize-regular);
+  font-size: 0.875rem;
   color: var(--color-text-faint);
 }
 
