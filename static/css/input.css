@@ -53,7 +53,16 @@ h2 { /* blue serif text for h2 */
   line-height: 125%;
 }
 
-h3 { /* medium weight text for h3 */
+h3 { /* base serif text for h4 */
+  margin: 0rem;
+  color: var(--color-text-base);
+  font-family: "Plantin MT Pro", serif;
+  font-size: var(--fontSize-medium);
+  font-weight: 400;
+  line-height: 125%;
+}
+
+h4 { /* medium weight text for h4 */
   margin: 0rem;
   color: var(--color-text-base);
   font-size: var(--fontSize-regular);
@@ -303,6 +312,12 @@ a.fontStyle-footer:active {
 
 .newspaper-visual {
   border-radius: var(--radius-mini, 0.25rem);
+}
+
+.two-column {
+  column-count: 2;
+  column-fill: balance;
+  column-gap: var(--spacing-xlarge);
 }
 
 @theme {

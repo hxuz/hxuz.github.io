@@ -565,11 +565,23 @@
   .field-sizing-fixed {
     field-sizing: fixed;
   }
+  .aspect-2\/3 {
+    aspect-ratio: 2/3;
+  }
   .aspect-3\/2 {
     aspect-ratio: 3/2;
   }
   .aspect-3\/4 {
     aspect-ratio: 3/4;
+  }
+  .aspect-4\/3 {
+    aspect-ratio: 4/3;
+  }
+  .aspect-4\/5 {
+    aspect-ratio: 4/5;
+  }
+  .aspect-5\/4 {
+    aspect-ratio: 5/4;
   }
   .aspect-square {
     aspect-ratio: 1 / 1;
@@ -616,8 +628,14 @@
   .h-36 {
     height: calc(var(--spacing) * 36);
   }
+  .h-108 {
+    height: calc(var(--spacing) * 108);
+  }
   .h-144 {
     height: calc(var(--spacing) * 144);
+  }
+  .h-155 {
+    height: calc(var(--spacing) * 155);
   }
   .h-\[var\(--radix-select-trigger-height\)\] {
     height: var(--radix-select-trigger-height);
@@ -696,6 +714,9 @@
   }
   .max-w-290 {
     max-width: calc(var(--spacing) * 290);
+  }
+  .max-w-296 {
+    max-width: calc(var(--spacing) * 296);
   }
   .max-w-312 {
     max-width: calc(var(--spacing) * 312);
@@ -929,6 +950,9 @@
   }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
   .grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -1796,6 +1820,9 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -2904,6 +2931,14 @@ h2 {
 h3 {
   margin: 0rem;
   color: var(--color-text-base);
+  font-family: "Plantin MT Pro", serif;
+  font-size: var(--fontSize-medium);
+  font-weight: 400;
+  line-height: 125%;
+}
+h4 {
+  margin: 0rem;
+  color: var(--color-text-base);
   font-size: var(--fontSize-regular);
   font-style: normal;
   font-weight: 500;
@@ -3093,6 +3128,11 @@ a.fontStyle-footer:active {
 }
 .newspaper-visual {
   border-radius: var(--radius-mini, 0.25rem);
+}
+.two-column {
+  column-count: 2;
+  column-fill: balance;
+  column-gap: var(--spacing-xlarge);
 }
 @property --tw-translate-x {
   syntax: "*";
