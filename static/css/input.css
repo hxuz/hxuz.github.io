@@ -258,6 +258,7 @@ a.fontStyle-footer:active {
   flex-shrink: 0;
 
   border-radius: var(--radius-large, 1.5rem);
+  corner-shape: superellipse(1.6);
   border: 1px solid var(--color-border-subtle);
   background: var(--color-opacity-base);
 
@@ -269,15 +270,9 @@ a.fontStyle-footer:active {
   0 4px 16px 0 var(--color-shadow);
 }
 
-.image-frame-work {
-  display: flex;
-  padding: var(--spacing-small, 0.5rem);
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-
-  border-radius: var(--radius-small, 0.5rem);
+.image-in-frame {
+  border-radius: 0.75rem;
+  corner-shape: superellipse(1.6);
 }
 
 .topnav {
@@ -293,6 +288,7 @@ a.fontStyle-footer:active {
   /*background: linear-gradient(to bottom, transparent, var(--color-opacity-base));*/
   background-color: var(--color-opacity-base);
   border-radius: var(--radius-regular, 1rem);
+  corner-shape: superellipse(1.6);
   outline: 1px solid var(--color-border-subtle);
 
   box-shadow: 
@@ -312,12 +308,25 @@ a.fontStyle-footer:active {
 
 .newspaper-visual {
   border-radius: var(--radius-mini, 0.25rem);
+  corner-shape: superellipse(1.6);
 }
 
 .two-column {
   column-count: 2;
   column-fill: balance;
   column-gap: var(--spacing-xlarge);
+}
+
+.icon-monster {
+  background-image: url("../images/y=x^2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.icon-monster:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
 }
 
 @theme {
