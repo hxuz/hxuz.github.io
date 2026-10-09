@@ -329,6 +329,16 @@ a.fontStyle-footer:active {
   transition: opacity 0.3s ease;
 }
 
+.icon-invader {
+  width: 33px;
+  height: 19px;
+}
+
+.icon-invader dotlottie-wc {
+  width: 100%;
+  height: 100%;
+}
+
 @theme {
   --color-*: initial;
   --color-bunker-90: oklch(22.28% 0.0079 274.57);
